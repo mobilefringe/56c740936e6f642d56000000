@@ -28,6 +28,7 @@
 <body>
     <div class="mobile_menu_container">
         <div class="mobile_menu">
+            <h4>MENU</h4>
             <ul>
                 <li><a href="#">SHOP & RESTAURANTS</a></li>
                 <li><a href="#">SPECIAL OFFERS</a></li>
