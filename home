@@ -20,8 +20,6 @@
 <!--        </div>-->
 <!--    </script>    -->
 <!--</div>-->
-<div class="clearfix"></div>
-<div class="margin_40"></div>
 <script>
     $(document).ready(function(e){
         init(e);
