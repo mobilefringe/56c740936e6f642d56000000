@@ -75,7 +75,9 @@
     </section>
     
     <section class="content_container main_container">
-        
+        <div class="newsletter_container text-center">
+            
+        </div>
     </section>
 </body>
 
