@@ -20,6 +20,9 @@ body{
     .header{
         padding-top:14px;
         padding-bottom:22px;
+        p{
+            margin-bottom:5;
+        }
     }
     .social_icons{
         margin:0 -2.5px;
