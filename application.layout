@@ -62,7 +62,7 @@
             </div>
         </div>
         
-        <div class="menu_container">
+        <div class="menu_container hidden_phone">
             <a href="#">shop & entertainment</a>
             <a href="#">events</a>
             <a href="#">specials</a>
