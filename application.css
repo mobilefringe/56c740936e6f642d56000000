@@ -58,6 +58,13 @@ body{
         margin: 0;
         border-top: 1px solid #000;
     }
+    
+    .menu_container{
+        text-align:center;
+        a{
+            margin:0 55px;
+        }
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
