@@ -32,12 +32,19 @@
             <div class="col-md-4">
                 <p>Follow us on</p>
                 <div class="social_icons">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899536000/icon_facebook.png" class="" alt="FB">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899545000/icon_twitter.png" class="" alt="Twitter">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899555000/icon_insta.png" class="" alt="Instagram">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899562000/icon_yt.png" class="" alt="YouTube">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899570000/icon_gplus.png" class="" alt="Google Plus">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899577000/icon_newsletter.png" class="" alt="">
+                    <a>
+                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899536000/icon_facebook.png" class="" alt="FB">
+                    </a>
+                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899545000/icon_twitter.png" class="" alt="Twitter">
+                    </a>
+                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899555000/icon_insta.png" class="" alt="Instagram">
+                    </a>
+                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899562000/icon_yt.png" class="" alt="YouTube">
+                    </a>
+                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899570000/icon_gplus.png" class="" alt="Google Plus">
+                    </a>
+                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899577000/icon_newsletter.png" class="" alt="">
+                    </a>
                 </div>
             </div>
             <div class="col-md-4 text-center">
