@@ -98,10 +98,20 @@
                     <div class="row footer_site_map">
                         <div class="col-md-6 col-xs-6">
                             <ul>
-                                
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
                             </ul>
                         </div>
-                        <div class="col-md-6 col-xs-6"></div>
+                        <div class="col-md-6 col-xs-6">
+                            <ul>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4">
