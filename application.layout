@@ -28,6 +28,9 @@
 
 <body>
     <section>
+        
+    </section>
+    <section>
         {{yield}}
     </section>
     <footer>
