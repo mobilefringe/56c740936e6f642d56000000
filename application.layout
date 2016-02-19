@@ -38,7 +38,7 @@
                 <li><a href="#">CONTACT US</a></li>
             </ul>
             <h4 id="close_menu">close</h4>
-            
+            <hr class="strikethrough" />
         </div>
     </div>
     <section class="content_container main_container">
