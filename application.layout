@@ -83,16 +83,18 @@
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4 right_border">
-                    <h4 class="site_map_heading">VISIT US</h2>
-                    <p class="site_map_desc">
-                        Virginia Gateway Management Office
-                        <br />
-                        7524 Iron Bar Lane
-                        <br />
-                        Gainesville, Virginia 20155
-                        <br />
-                        <a href="#">Open Maps! ></a>
-                    </p>
+                    <div>
+                        <h4 class="site_map_heading">VISIT US</h2>
+                        <p class="site_map_desc">
+                            Virginia Gateway Management Office
+                            <br />
+                            7524 Iron Bar Lane
+                            <br />
+                            Gainesville, Virginia 20155
+                            <br />
+                            <a href="#">Open Maps! ></a>
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-4 right_border">
                     <h4 class="site_map_heading">SITE MAP</h2>
