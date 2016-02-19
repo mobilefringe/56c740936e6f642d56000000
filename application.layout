@@ -50,7 +50,7 @@
                         <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899577000/icon_newsletter.png" class="" alt="">
                     </a>
                 </div>
-                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu" alt="Menu">
+                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
             <div class="col-md-4 col-xs-4 text-center">
                 <a href="/" target="_blank">
@@ -59,7 +59,7 @@
             </div>
             <div class="col-md-4 col-xs-4 text-right">
                 <input type="text" placeholder="Search" class="search_field hidden_phone" />
-                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn" alt="search">
+                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn " alt="search">
             </div>
         </div>
         
