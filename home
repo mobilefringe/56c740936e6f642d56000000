@@ -21,7 +21,6 @@
                    <svg viewBox="0 0 180 320" preserveAspectRatio="none">
                    </svg>
                    <figcaption>
-                        <!-- <p>description 1</p> -->
                         <div class="view_button">View</div>
                    </figcaption>
                 </figure>
