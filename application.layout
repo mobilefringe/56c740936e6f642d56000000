@@ -29,9 +29,15 @@
 <body>
     <section class="content_container">
         <div class="row header">
-            <div clas="col-md-4"></div>
-            <div clas="col-md-4"></div>
-            <div clas="col-md-4"></div>
+            <div clas="col-md-4">
+                
+            </div>
+            <div clas="col-md-4">
+                
+            </div>
+            <div clas="col-md-4">
+                
+            </div>
         </div>
     </section>
     <section>
