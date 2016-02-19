@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <section class="main_container">
+    <section class="content_container main_container">
         <div class="row header">
             <div class="col-md-4">
                 <p>Follow us on</p>
