@@ -7,7 +7,7 @@ function init(e){
     });
     $('#close_menu').click(function(e){
         $('body').removeClass('no_scroll');
-        $('.mobile_menu_container').fadeIn();
+        $('.mobile_menu_container').fadeOut();
     });
     
 }
