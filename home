@@ -28,16 +28,18 @@
                 </figure>
             </a>
         </div>
-        <div class="feature_item wow animated flipInX animated" style="visibility: visible;"> <a href="http://www.google.ca" data-path-hover="M 180,190 0,158 0,0 180,0 z">
-          <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919333000/2.png')">
-               <svg viewBox="0 0 180 320" preserveAspectRatio="none">
-                    <!-- <path d="M 180,0 0,0 0,0 180,0 z"></path> -->
-               </svg>
-               <figcaption>
-                    <!-- <p>description 1</p> -->
-                    <div class="view_button">View</div>
-               </figcaption>
-            </figure>
+        <div class="feature_item wow animated flipInX animated" style="visibility: visible;">
+            <a href="http://www.google.ca" data-path-hover="M 180,190 0,158 0,0 180,0 z">
+              <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919333000/2.png')">
+                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                        <!-- <path d="M 180,0 0,0 0,0 180,0 z"></path> -->
+                   </svg>
+                   <figcaption>
+                        <!-- <p>description 1</p> -->
+                        <div class="view_button">View</div>
+                   </figcaption>
+                </figure>
+            </a>
         </div>
         <div class="feature_item wow animated flipInX animated" style="visibility: visible;"> <a href="http://www.google.ca" data-path-hover="M 180,190 0,158 0,0 180,0 z">
           <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919337000/3.png')">
