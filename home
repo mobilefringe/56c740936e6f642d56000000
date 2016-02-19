@@ -25,8 +25,6 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $('.flexslider').flexslider({
-            animation: "slide",
-        });
+        $('.flexslider').slick();
     })
 </script>
