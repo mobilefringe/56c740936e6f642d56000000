@@ -3,5 +3,5 @@
 function init(e){
     $('.open_menu').click(function(e){
         
-    })
+    });
 }
