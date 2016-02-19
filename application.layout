@@ -63,6 +63,9 @@
             </div>
         </div>
         <hr class="divider" />
+        <div class="menu_container">
+            
+        </div>
     </section>
     <section>
         {{yield}}
