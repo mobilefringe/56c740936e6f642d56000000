@@ -29,7 +29,7 @@
 <body>
     <section class="content_container">
         <div class="row header">
-            <div clas="col-md-4">
+            <div class="col-md-4">
                 <p>Follow us on</p>
                 <div class="social_icons">
                     <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899536000/icon_facebook.png" class="" alt="FB">
