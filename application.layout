@@ -27,15 +27,17 @@
 
 <body>
     <div class="mobile_menu_container">
-        <ul class="mobile_menu">
-            <li>Menu</li>
-            <li><a href="#">SHOP & RESTAURANTS</a></li>
-            <li><a href="#">SPECIAL OFFERS</a></li>
-            <li><a href="#">EVENTS</a></li>
-            <li><a href="#">DIRECTIONS</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">CONTACT US</a></li>
-        </ul>
+        <div class="mobile_menu">
+            <ul>
+                <li>Menu</li>
+                <li><a href="#">SHOP & RESTAURANTS</a></li>
+                <li><a href="#">SPECIAL OFFERS</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">DIRECTIONS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
     </div>
     <section class="content_container main_container">
         <div class="row header mobile_margin">
