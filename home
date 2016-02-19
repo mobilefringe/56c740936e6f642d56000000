@@ -17,6 +17,13 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $('.flexslider').slick();
+        $('.flexslider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        centerMode: true,
+        variableWidth: true
+    });
     })
 </script>
