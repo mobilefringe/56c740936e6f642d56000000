@@ -100,6 +100,26 @@
                         <p class="site_map_desc">
                             Follow us and stay tune with all our activities and news!
                         </p>
+                        <div class="social_icons hidden_phone">
+                            <a href="#" target="_blank">
+                                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899536000/icon_facebook.png" class="" alt="FB">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899545000/icon_twitter.png" class="" alt="Twitter">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899555000/icon_insta.png" class="" alt="Instagram">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899562000/icon_yt.png" class="" alt="YouTube">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899570000/icon_gplus.png" class="" alt="Google Plus">
+                            </a>
+                            <a href="#" target="_blank">
+                                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899577000/icon_newsletter.png" class="" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-4 right_border">
