@@ -57,7 +57,7 @@
                 </a>
             </div>
             <div class="col-md-4 col-xs-4 text-right">
-                <input type="text" placeholder="Search" class="search_field" />
+                <input type="text" placeholder="Search" class="search_field col-xs-4" />
                 <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn" alt="search">
             </div>
         </div>
