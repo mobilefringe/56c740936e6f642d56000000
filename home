@@ -1,15 +1,7 @@
 <div class="flexslider">
-    <ul class="slides">
-            <li>
-                <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-            </li>
-            <li>
-                <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-            </li>
-            <li>
-                <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-            </li>
-    </ul>
+    <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
+    <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
+    <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
 </div>
 <!--<div class="feature_row" id="feature_container">-->
 <!--    <script id="feature_template" type="x-tmpl-mustache/text">-->
