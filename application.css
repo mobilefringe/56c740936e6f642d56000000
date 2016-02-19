@@ -36,6 +36,15 @@ body{
         width: 104px;
         margin-top: 10px;
     }
+    .search_field{
+        height: 31px;
+        font-size: 16px;
+        border: 0;
+        width: 160px;
+        border-bottom: 1px solid #000;
+        padding: 0;
+        margin-top: 19px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
