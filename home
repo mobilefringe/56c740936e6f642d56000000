@@ -13,7 +13,7 @@
         </ul>
     </div>
 </div>
-<!--<div class="feature_row" id="feature_container">-->
+<div class="feature_row" id="feature_container">
 <!--    <script id="feature_template" type="x-tmpl-mustache/text">-->
 <!--        <div class="feature_item">-->
 <!--            <div class="yellow_line"></div>-->
