@@ -73,9 +73,10 @@
     <section>
         {{yield}}
     </section>
-    <footer>
+    
+    <section class="content_container main_container">
         <!--Footer Content-->
-    </footer>
+    </section>
 </body>
 
 </html>
