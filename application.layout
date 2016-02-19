@@ -31,7 +31,6 @@
         <!--Header Content-->
     </header>
     <section>
-        <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
         {{yield}}
     </section>
     <footer>
