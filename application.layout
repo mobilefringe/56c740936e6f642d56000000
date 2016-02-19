@@ -83,7 +83,7 @@
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4 right_border">
-                    <div>
+                    <div class="hidden_phone">
                         <h4 class="site_map_heading">VISIT US</h2>
                         <p class="site_map_desc">
                             Virginia Gateway Management Office
