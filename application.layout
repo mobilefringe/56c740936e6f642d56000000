@@ -26,8 +26,8 @@
 </head>
 
 <body>
-    <div class="mobile_menu">
-        <ul>
+    <div class="mobile_menu_container">
+        <ul class="">
             
         </ul>
     </div>
