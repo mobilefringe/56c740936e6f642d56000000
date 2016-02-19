@@ -42,8 +42,8 @@
         <div class="feature_item wow animated flipInX animated" style="visibility: visible;">
             <a href="#">
               <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919337000/3.png')">
-                   <svg viewBox="0 0 180 320" preserveAspectRatio="none">
-                   </svg>
+                   <!--<svg viewBox="0 0 180 320" preserveAspectRatio="none">-->
+                   <!--</svg>-->
                    <figcaption>
                         <!-- <p>description 1</p> -->
                         <div class="view_button">View</div>
