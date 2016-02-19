@@ -28,7 +28,14 @@
 <body>
     <div class="mobile_menu_container">
         <ul class="mobile_menu">
-            
+            <li>MENU</li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
         </ul>
     </div>
     <section class="content_container main_container">
