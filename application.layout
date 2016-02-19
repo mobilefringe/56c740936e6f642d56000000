@@ -27,7 +27,9 @@
 
 <body>
     <div class="mobile_menu">
-        
+        <ul>
+            
+        </ul>
     </div>
     <section class="content_container main_container">
         <div class="row header mobile_margin">
