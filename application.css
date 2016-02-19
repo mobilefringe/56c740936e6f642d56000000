@@ -17,6 +17,9 @@ body{
         width:1024px;
         margin:0 auto;
     }
+    .main_header{
+        width:940px;
+    }
     .header{
         padding-top:14px;
         padding-bottom:22px;
