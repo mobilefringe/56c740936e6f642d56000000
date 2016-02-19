@@ -13,9 +13,10 @@ body{
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 769px) {
-  .content_container{
-      width:1024px;
-  }
+    .content_container{
+        width:1024px;
+        margin:0 auto;
+    }
     
 }
 
