@@ -27,7 +27,7 @@
 
 <body>
     <div class="mobile_menu_container">
-        <ul class="">
+        <ul class="mobile_menu">
             
         </ul>
     </div>
