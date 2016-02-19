@@ -28,7 +28,9 @@
 
 <body>
     <section class="content_container">
-        menu
+        <div class="row header">
+            
+        </div>
     </section>
     <section>
         {{yield}}
