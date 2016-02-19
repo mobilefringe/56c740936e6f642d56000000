@@ -2,11 +2,13 @@
     <ul class="slides">
             <li>
                 <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-                <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-                <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-                </a>
             </li>
-        
+            <li>
+                <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
+            </li>
+            <li>
+                <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
+            </li>
     </ul>
 </div>
 <!--<div class="feature_row" id="feature_container">-->
