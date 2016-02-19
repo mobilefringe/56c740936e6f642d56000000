@@ -16,7 +16,15 @@
 <div class="content_container main_container">
     <div clasas="feature_row" id="feature_container">
         <div class="feature_item">
-        a
+            <figure style="background-image:url('http://cdn.mallmaverick.com/system/feature_items/feature_images/000/000/212/original/featureitem_1.png?1441825345')">
+               <svg viewBox="0 0 180 320" preserveAspectRatio="none">
+                    <!-- <path d="M 180,0 0,0 0,0 180,0 z"></path> -->
+               </svg>
+               <figcaption>
+                    <!-- <p>description 1</p> -->
+                    <div class="view_button">View</div>
+               </figcaption>
+          </figure>
         </div>
         <div class="feature_item">
         a
