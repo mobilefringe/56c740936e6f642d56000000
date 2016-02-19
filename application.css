@@ -53,6 +53,11 @@ body{
         margin-top: 20px;
         cursor: pointer;
     }
+    
+    .divider{
+        margin: 0;
+        border-top: 1px solid #000;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
