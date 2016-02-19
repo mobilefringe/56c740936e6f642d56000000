@@ -37,7 +37,7 @@
                 <li><a href="#">ABOUT US</a></li>
                 <li><a href="#">CONTACT US</a></li>
             </ul>
-            <h4>close</h4>
+            <h4 id="close_menu">close</h4>
             
         </div>
     </div>
