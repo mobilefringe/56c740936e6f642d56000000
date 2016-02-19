@@ -1,4 +1,4 @@
-/*!
+.flex-control-paging/*!
 Theme Name: {re}start
 Theme URI: http://www.leonart.gr/htmlthemes/restart_v3/
 Description: Multipurpose HTML Template based on twitter bootstrap. 
@@ -361,12 +361,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     margin-right:auto;
     display:block;
 }
-.flex-control-paging{
-    display:none !important;
-}
-.flex-direction-nav li{
-    list-style:none;
-}
+
 
 #feature_items{
     margin-top:20px;
