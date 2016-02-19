@@ -15,7 +15,7 @@
 </div>
 <div class="feature_row" id="feature_container">
 <!--    <script id="feature_template" type="x-tmpl-mustache/text">-->
-<!--        <div class="feature_item">-->
+        <div class="feature_item">
 <!--            <div class="yellow_line"></div>-->
 <!--            <a href="{{url}}" {{css}} onclick="{{noLink}}" class="darken">-->
 <!--                <h5 class="feature_header">{{name}}</h5>-->
