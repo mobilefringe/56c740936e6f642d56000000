@@ -32,7 +32,10 @@ body{
             float:left;
         }
     }
-    
+    .main_logo{
+        width: 104px;
+        margin-top: 10px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
