@@ -25,7 +25,7 @@
 
 </head>
 
-<body>
+<body class="no_scroll">
     <div class="mobile_menu_container">
         <div class="opened_mobile_menu">
             <h4>MENU</h4>
