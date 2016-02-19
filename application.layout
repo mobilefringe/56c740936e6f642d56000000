@@ -65,6 +65,9 @@
         <hr class="divider" />
         <div class="menu_container">
             <a href="#">shop & entertainment</a>
+            <a href="#">events</a>
+            <a href="#">specials</a>
+            <a href="#">directions</a>
         </div>
     </section>
     <section>
