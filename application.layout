@@ -83,7 +83,7 @@
             <div class="row">
                 <div class="col-md-4 right_border">
                     <h4 class="site_map_heading">VISIT US</h2>
-                    <p>
+                    <p class="site_map_desc">
                         Virginia Gateway Management Office
                         <br />
                         7524 Iron Bar Lane
