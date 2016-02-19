@@ -18,9 +18,9 @@
         <div class="feature_item wow animated flipInX animated" style="visibility: visible;">
             <a href="#">
                 <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919325000/1.png')">
-                   <figcaption>
+                    <figcaption>
                         <div class="view_button">View</div>
-                   </figcaption>
+                    </figcaption>
                 </figure>
             </a>
         </div>
