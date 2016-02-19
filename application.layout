@@ -50,7 +50,7 @@
                         <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899577000/icon_newsletter.png" class="" alt="">
                     </a>
                 </div>
-                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="" alt="">
+                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu" alt="Menu">
             </div>
             <div class="col-md-4 col-xs-4 text-center">
                 <a href="/" target="_blank">
