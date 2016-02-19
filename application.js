@@ -3,6 +3,6 @@
 function init(e){
     $('.open_menu').click(function(e){
         $('body').addClass('no_scroll');
-        
+        $('.mobile_menu_container').fadeIn();
     });
 }
