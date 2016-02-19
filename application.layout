@@ -28,7 +28,7 @@
 <body>
     <section class="content_container main_container">
         <div class="row header">
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-4">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
                     <a href="#" target="_blank">
@@ -51,12 +51,12 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 col-xs-4 text-center">
                 <a href="/" target="_blank">
                     <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png" class="main_logo" alt="main_logo">
                 </a>
             </div>
-            <div class="col-md-4 text-right">
+            <div class="col-md-4 col-xs-4 text-right">
                 <input type="text" placeholder="Search" class="search_field" />
                 <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn" alt="search">
             </div>
