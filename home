@@ -54,6 +54,18 @@
                     </figure>
                 </a>
             </div>
+            <div class="promotion_item wow animated flipInX animated">
+                <a href="#">
+                    <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919325000/1.png')">
+                    </figure>
+                </a>
+            </div>
+            <div class="promotion_item wow animated flipInX animated">
+                <a href="#">
+                    <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919325000/1.png')">
+                    </figure>
+                </a>
+            </div>
         </div>
         <div class="clearfix"></div>
     </div>
