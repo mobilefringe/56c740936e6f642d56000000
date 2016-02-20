@@ -74,8 +74,7 @@
     </div>
 </div>
 <div class="content_container">
-    <iframe width="100%" height="250" frameborder="0" style="border:0"
-src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJA6hnXK1ntokRsKhnCtP412Q&key=..." allowfullscreen></iframe>
+    <iframe width="100%" height="250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJA6hnXK1ntokRsKhnCtP412Q&key=..." allowfullscreen></iframe>
 </div>
 <script>
     $(document).ready(function(e){
