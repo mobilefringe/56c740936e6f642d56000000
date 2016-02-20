@@ -47,7 +47,7 @@
     <div class="promotions">
         <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
         <p class="exclusive_deals">don’t miss our exclusive deals</p>
-        <div class="home_promotions">
+        <div class="home_promotions feature_row">
             
         </div>
     </div>
