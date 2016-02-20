@@ -73,6 +73,9 @@
         <div class="clearfix"></div>
     </div>
 </div>
+<div class="content_container">
+    
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
