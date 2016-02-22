@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="col-md-8">
-            <h5>All</h5>
+            <h5 class="category_header">All</h5>
             <div class="store_list" id="store_list_container">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
                     <div class="store_list_content cats_row" data-cat="{{cat_list}}">
