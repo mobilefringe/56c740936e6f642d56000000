@@ -128,7 +128,7 @@
             renderGeneral('#category_container', '#category_template', categories);
             
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            $('#mobile_cat_list').prepend('<option value="" selected disabled="disabled">Categories</option>');
+            $('#mobile_cat_list').prepend('<option value="All" selected >Categories</option>');
             show_cat_stores();
             var coming_soon_stores = getComingSoonList();
             var new_stores = getNewStoresList();
