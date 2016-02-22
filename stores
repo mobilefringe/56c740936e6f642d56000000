@@ -6,7 +6,7 @@
     <h2 class="stores_main_heading">Shop & Entertainment</h2>
     <p class="store_main_desc">explore • enjoy • shop</p>
     
-    <div>
+    <div class="row">
         <div class="store_list" id="store_list_container">
             <script id="store_list_template" type="x-tmpl-mustache/text">
                 <div class="store_list_content">
