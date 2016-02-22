@@ -127,7 +127,7 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "Z");
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            .prependTo('<option value=""></option>');
+            $('#mobile_cat_list').prependTo('<option value=""></option>');
             show_cat_stores();
             var coming_soon_stores = getComingSoonList();
             var new_stores = getNewStoresList();
