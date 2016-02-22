@@ -10,7 +10,7 @@
         <div class="col-md-8">
             <div class="store_list" id="store_list_container">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
-                    <div class="store_list_content">
+                    <div class="store_list_content" data-cat="{{cat_list}}">
                         <p class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</p>
                         <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
                     </div>
