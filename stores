@@ -5,8 +5,5 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $('.flexslider').flexslider({
-            animation: "slide",
-        });
     })
 </script>
