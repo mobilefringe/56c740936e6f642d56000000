@@ -10,7 +10,7 @@ function init(e){
         $('.mobile_menu_container').fadeOut();
     });
     
-    $('#mobile_alpha_list').click(function(){
+    $('#mobile_alpha_list').change(function(){
         window.location.href = "#" + $(this).val();
     })
     
