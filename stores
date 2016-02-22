@@ -84,7 +84,7 @@
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
             }
             else{
-                $('#no_now_open').fadeIn();
+                $('#new_stores').hide();
             }
         }
         
