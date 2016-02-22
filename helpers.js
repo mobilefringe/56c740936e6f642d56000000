@@ -27,7 +27,7 @@ function show_cat_stores(){
                $(val).show();
            } 
         });
-        $('#cat_name').hide();
+        $('#cat_name_header').hide();
         e.preventDefault();
     });
     
