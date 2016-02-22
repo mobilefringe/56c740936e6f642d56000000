@@ -23,7 +23,7 @@
         init(e);
         function renderAll (){
             var stores = getStoresList(); 
-            renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+            renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "Z");
         }
         
         $('#map').craftmap({
