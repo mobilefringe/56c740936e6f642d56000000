@@ -10,6 +10,10 @@ function init(e){
         $('.mobile_menu_container').fadeOut();
     });
     
+    $('#mobile_alpha_list').click(function(){
+        
+    })
+    
 }
 
 function renderGeneral(container, template, collection){
