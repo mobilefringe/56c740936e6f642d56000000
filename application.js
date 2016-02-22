@@ -14,6 +14,8 @@ function init(e){
         window.location.href = "#" + $(this).val().toUpperCase();
     })
     
+    $('#mobile_cat_list')
+    
 }
 
 function renderGeneral(container, template, collection){
