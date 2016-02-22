@@ -11,7 +11,7 @@ function init(e){
     });
     
     $('#mobile_alpha_list').click(function(){
-        window.location.href = "#" + $(this).val()
+        window.location.href = "#" + $(this).val();
     })
     
 }
