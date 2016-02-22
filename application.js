@@ -12,6 +12,18 @@ function init(e){
     
 }
 
+function renderGeneral(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        var repo_rendered = Mustache.render(template_html,val);
+        item_rendered.push(repo_rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
 function renderStoreList(container, template, collection, starter, breaker){
     var item_list = [];
     var item_rendered = [];
