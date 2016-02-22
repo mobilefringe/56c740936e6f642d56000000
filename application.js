@@ -17,7 +17,7 @@ function init(e){
     $('#mobile_cat_list').change(function(){
         var v = $(this).val();
         if(v == "all"){
-            
+            $('.show_all_stores').click();
        }
        else{
            $('a[data-id="' + v + '"]').click();
