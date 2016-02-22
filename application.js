@@ -13,6 +13,7 @@ function init(e){
 }
 
 function renderGeneral(container, template, collection){
+    console.log(collection)
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
