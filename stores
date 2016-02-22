@@ -40,6 +40,12 @@
             </div>
         </div>
         <div class="col-md-8">
+            <div id="new_stores">
+                
+            </div>
+            <div id="coming_soon_stores">
+                
+            </div>
             <h5 class="category_header" style="display:none" id="cat_name_header">All</h5>
             <div class="store_list" id="store_list_container">
                 <script id="store_list_template" type="x-tmpl-mustache/text">
