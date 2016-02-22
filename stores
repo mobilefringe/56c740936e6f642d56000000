@@ -86,7 +86,6 @@
             var new_stores = getNewStoresList();
             
             if (new_stores.length > 0){
-                cons
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
             }
             else{
