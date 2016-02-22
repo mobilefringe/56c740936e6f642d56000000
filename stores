@@ -10,8 +10,8 @@
         init(e);
         $('#map').craftmap({
 			image: {
-				width: 860,
-				height: 860,
+				width: 850,
+				height: 850,
 				name: 'imgMap'
 			},
 			map: {
