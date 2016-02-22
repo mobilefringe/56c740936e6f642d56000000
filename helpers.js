@@ -6,8 +6,8 @@ function show_cat_stores(){
         var rows = $('.cats_row');
         rows.hide();
         $('.store_initial').hide();
-        $('#cat_name').text($(this).text());
-        $('#cat_name').css('display', 'block');
+        $('#cat_name_header').text($(this).text());
+        $('#cat_name_header').css('display', 'block');
         $.each(rows, function(i, val){
             var cat_array = val.getAttribute('data-cat').split(',');
             if ($.inArray(cat_id, cat_array) >= 0){
