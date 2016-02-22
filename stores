@@ -8,7 +8,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $('#map').craftmap({
+        $('#property_map').craftmap({
 			image: {
 				width: 850,
 				height: 850,
