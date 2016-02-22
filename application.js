@@ -14,7 +14,9 @@ function init(e){
         window.location.href = "#" + $(this).val().toUpperCase();
     })
     
-    $('#mobile_cat_list')
+    $('#mobile_cat_list').change(function{
+        
+    })
     
 }
 
