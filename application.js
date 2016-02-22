@@ -12,7 +12,7 @@ function init(e){
     
     $('#mobile_alpha_list').change(function(){
         console.log($(this).val())
-        window.location.href = "#" + $(this).val().toUppercase();
+        window.location.href = "#" + $(this).val().toUpperCase();
     })
     
 }
