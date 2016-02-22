@@ -21,6 +21,9 @@
 <script>
     $(document).ready(function(e){
         init(e);
+        function renderAll (){
+            
+        }
         
         $('#map').craftmap({
 			image: {
