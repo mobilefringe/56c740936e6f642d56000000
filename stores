@@ -7,7 +7,7 @@
     <p class="store_main_desc">explore • enjoy • shop</p>
     <div class="show_phone">
         <a></a>
-        <select>
+        <select id="mobile_alpha_list">
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
