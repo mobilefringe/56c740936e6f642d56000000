@@ -83,9 +83,10 @@
             renderGeneral('#category_container', '#category_template', categories);
             show_cat_stores();
             var coming_soon_stores = getComingSoonList();
-            var new_Stores = getNewStoresList();
+            var new_stores = getNewStoresList();
             
             if (new_stores.length > 0){
+                cons
                 renderGeneral("#new_store_container","#new_store_template", new_stores);
             }
             else{
