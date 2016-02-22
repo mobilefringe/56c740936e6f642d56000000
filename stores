@@ -79,6 +79,8 @@
             show_cat_stores();
             var coming_soon_stores = getComingSoonList();
             var new_Stores = getNewStoresList();
+            
+            
         }
         
         $('#map').craftmap({
