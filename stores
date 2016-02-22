@@ -21,7 +21,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        loadMallDataCached(renderAll); 
+        
         $('#map').craftmap({
 			image: {
 				width: 850,
@@ -31,5 +31,6 @@
 				position: 'center'
 			}
 		});
+		loadMallDataCached(renderAll); 
     })
 </script>
