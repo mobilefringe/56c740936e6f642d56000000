@@ -32,3 +32,26 @@ function show_cat_stores(){
     });
     
 }
+
+function show_pin(param){
+		store_id = $(param).attr('store_id');
+		if($("#"+store_id).is(":visible")){
+			$("."+store_id).hide();				
+			$("#"+store_id).hide();
+			$("#no_pin_"+store_id).show();
+			$("#show_pin_"+store_id).hide();
+			$("#m_no_pin_"+store_id).show();
+			$("#m_show_pin_"+store_id).hide();
+		}else{
+			$(".marker").hide();
+			$("#"+store_id).show();
+			$("#"+store_id).click();
+			$("#no_pin_"+store_id).hide();
+			$("#show_pin_"+store_id).show();
+			$("#m_no_pin_"+store_id).hide();
+			$("#m_show_pin_"+store_id).show();
+		}
+		$('#store_table').hide()
+		
+		return false;
+    }
