@@ -1,6 +1,7 @@
 <div class="content_cantainer main_container">
-<div id="map">
-    <img alt="map" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
+    <div id="map">
+        <img alt="map" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
+    </div>
 </div>
 
 <script>
