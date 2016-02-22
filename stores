@@ -6,7 +6,7 @@
     <h2 class="stores_main_heading">Shop & Entertainment</h2>
     <p class="store_main_desc">explore • enjoy • shop</p>
     <div class="show_phone">
-        <a href="#">Open Centre Map</a>
+        <a href="#" class="mobile_dd">Open Centre Map</a>
         <select id="mobile_alpha_list">
             <option value=""></option>
             <option value=""></option>
