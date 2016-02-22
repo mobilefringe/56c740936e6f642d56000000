@@ -80,7 +80,12 @@
             var coming_soon_stores = getComingSoonList();
             var new_Stores = getNewStoresList();
             
-            
+            if (new_stores.length > 0){
+                renderGeneral("#new_store_container","#new_store_template", new_stores);
+            }
+            else{
+                $('#no_now_open').fadeIn();
+            }
         }
         
         $('#map').craftmap({
