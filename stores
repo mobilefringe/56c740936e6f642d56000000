@@ -32,6 +32,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
+            var categories = getStoreCategories();
             var stores = getStoresList(); 
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "Z");
             renderGeneral('#category_container', '#category_template', categories);
