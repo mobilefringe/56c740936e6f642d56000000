@@ -18,8 +18,11 @@ function init(e){
         var v = $(this).val();
         if(v == "all"){
             
-        }
-     $('a[data-id="' + v + '"]').click();
+       }
+       else{
+           $('a[data-id="' + v + '"]').click();
+       }
+     
     })
     
 }
