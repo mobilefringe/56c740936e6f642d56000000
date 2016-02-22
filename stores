@@ -12,7 +12,6 @@
 			image: {
 				width: 850,
 				height: 850,
-				name: 'imgMap'
 			},
 			map: {
 				position: 'center'
