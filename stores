@@ -64,7 +64,7 @@
                 <p class="category_header">Opening Soon</p>
                 <div id="coming_soon_container">
                     <script id="coming_soon_template" type="x-tmpl-mustache/text">
-                        <h5 class="category_name"><a href="#">{{name}}</a></h5>    
+                        <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
                     </script>
                 </div>
             </div>
