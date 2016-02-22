@@ -15,7 +15,8 @@ function init(e){
     })
     
     $('#mobile_cat_list').change(function{
-        
+        var v = $(this).val();
+        cat = $('a[data-id="964"]').click()
     })
     
 }
