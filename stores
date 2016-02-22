@@ -18,11 +18,11 @@
             </div>
         </div>
         <div class="col-md-4">
-            <p class="store_initial">Categories</p>
+            <p class="category_name">Categories</p>
             <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
             <div id="category_container" class="hidden_phone">
                 <script id="category_template" type="x-tmpl-mustache/text">
-                    <h5 class="category_header"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
                 </script>
             </div>
         </div>
