@@ -8,7 +8,7 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $('.map2').craftmap({
+        $('.map').craftmap({
 			image: {
 				width: 860,
 				height: 860,
