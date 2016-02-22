@@ -126,7 +126,7 @@
             var stores = getStoresList(); 
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "Z");
             renderGeneral('#category_container', '#category_template', categories);
-            $('#mobile_cat_list').prepend('<option value=""></option>');
+            $('#mobile_cat_list').prepend('<option value="" selected disabled="disabled">Categories</option>');
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
             
             show_cat_stores();
