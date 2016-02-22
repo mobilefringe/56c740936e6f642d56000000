@@ -21,7 +21,7 @@ function renderStoreList(container, template, collection, starter, breaker){
     $.each( collection , function( key, val ) {
         if (type == "stores" || type == "category_stores"){
             if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-                val.alt_store_front_url = "http://assets.codecloudapp.com/sites/56ba24f16e6f641f99030000/image/png/1446826281000/stc-logo-holiday-360 copy.png";
+                val.alt_store_front_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
             } else {
                 val.alt_store_front_url = getImageURL(val.store_front_url);    
             }
