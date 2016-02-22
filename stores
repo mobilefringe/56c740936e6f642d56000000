@@ -51,7 +51,7 @@
                 </script>
             </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 hidden_phone">
             <div id="new_stores">
                 <p class="category_header">New Stores</p>
                 <div id="new_store_container">
