@@ -11,7 +11,7 @@
         $('#map').craftmap({
 			image: {
 				width: 850,
-				height: 850,
+				height: 370,
 			},
 			map: {
 				position: 'center'
