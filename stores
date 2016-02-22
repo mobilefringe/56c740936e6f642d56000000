@@ -7,7 +7,7 @@
     <p class="store_main_desc">explore • enjoy • shop</p>
     <div class="mobile_padding show_phone">
         <a href="#" class="mobile_dd">Open Centre Map</a>
-        <select id="mobile_alpha_list" class="form-control custom_form_control">
+        <select id="mobile_cat_list" class="form-control custom_form_control">
             <option disabled="disabled" selected>Categories</option>
         </select>
         <select id="mobile_alpha_list" class="form-control custom_form_control">
