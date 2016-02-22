@@ -43,6 +43,7 @@
             <div id="new_stores">
                 <div id="new_store_container">
                     <script id="new_store_template" type="x-tmpl-mustache/text">
+                        <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
                     </script>
                 </div>
             </div>
