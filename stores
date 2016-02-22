@@ -8,5 +8,15 @@
 <script>
     $(document).ready(function(e){
         init(e);
+        $('.map2').craftmap({
+			image: {
+				width: 860,
+				height: 860,
+				name: 'imgMap'
+			},
+			map: {
+				position: 'center'
+			}
+		});
     })
 </script>
