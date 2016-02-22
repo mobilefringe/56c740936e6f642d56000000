@@ -8,7 +8,7 @@
     <div class="mobile_padding show_phone">
         <a href="#" class="mobile_dd">Open Centre Map</a>
         <select id="mobile_alpha_list" class="form-control custom_form_control">
-            <option "disabled">Index</option>
+            <option displayed="disabled">Index</option>
             <option value="7">all</option>
             <option value="7">#</option>
             <option value="a">a</option>
