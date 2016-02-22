@@ -126,6 +126,7 @@
             var stores = getStoresList(); 
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "Z");
             renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#category_container', '#category_template', categories);
             show_cat_stores();
             var coming_soon_stores = getComingSoonList();
             var new_stores = getNewStoresList();
