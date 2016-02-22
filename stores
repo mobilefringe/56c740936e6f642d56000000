@@ -8,7 +8,9 @@
     <div class="mobile_padding show_phone">
         <a href="#" class="mobile_dd">Open Centre Map</a>
         <select id="mobile_cat_list" class="form-control custom_form_control">
-            <option disabled="disabled" selected>Categories</option>
+            <script id="category_template" type="x-tmpl-mustache/text">
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
+            </script>
         </select>
         <select id="mobile_alpha_list" class="form-control custom_form_control">
             <option disabled="disabled" selected>Index</option>
