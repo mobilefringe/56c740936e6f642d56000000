@@ -56,7 +56,7 @@
                 <p class="category_header">New Stores</p>
                 <div id="new_store_container">
                     <script id="new_store_template" type="x-tmpl-mustache/text">
-                        <h5 class="category_name"><a href="#">{{name}}</a></h5>    
+                        <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
                     </script>
                 </div>
             </div>
