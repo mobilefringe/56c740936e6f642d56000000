@@ -12,7 +12,7 @@ function init(e){
     
 }
 
-function renderStoreList(container, template, collection, type,starter, breaker){
+function renderStoreList(container, template, collection,starter, breaker){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
