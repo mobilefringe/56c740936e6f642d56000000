@@ -9,7 +9,10 @@
     $(document).ready(function(e){
         init(e);
         $('#map').craftmap({
-			
+			image: {
+				width: 850,
+				height: 370,
+			},
 			map: {
 				position: 'center'
 			}
