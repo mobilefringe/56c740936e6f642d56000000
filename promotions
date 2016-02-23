@@ -2,12 +2,14 @@
     <h3 class="promo_main_header">SPECIALS</h3>
     <div class="row">
         <div class="col-md-8">
-            <div class="row">
-                <div class="col-md-4">
-                    
-                </div>
-                <div class="col-md-8">
-                    
+            <div>
+                <div class="row">
+                    <div class="col-md-4">
+                        
+                    </div>
+                    <div class="col-md-8">
+                        
+                    </div>
                 </div>
             </div>
         </div>
