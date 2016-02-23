@@ -40,7 +40,7 @@ function renderPromotions(container, template, collection){
             val.image_url = store_details.store_front_url_abs;
         }
         else{
-            val.store_name = "Dixie Outlet";
+            val.store_name = "";
             val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
         }
         
