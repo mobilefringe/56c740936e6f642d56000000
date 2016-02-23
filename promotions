@@ -12,7 +12,7 @@
                             <h2 class="promo_list_name">{{name}}</h2>
                             <p>
                                 <span class="promo_dates">{{dates}}</span>
-                                &nbsp; | &nbsp;
+                                
                                 <span class="promo_dates">{{dates}}</span>
                             </p>
                             <div class="promo_list_desc">{{description_short}}</div>
