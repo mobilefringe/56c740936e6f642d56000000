@@ -2,7 +2,7 @@
     <h3 class="promo_main_header">SPECIALS</h3>
     <div class="row">
         <div class="col-md-8">
-            <div>
+            <div id="promo_container">
                 <div class="row">
                     <div class="col-md-4">
                         
