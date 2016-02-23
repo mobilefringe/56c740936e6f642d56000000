@@ -49,7 +49,7 @@ function renderPromotions(container, template, collection, mall_name){
         }
         
         if(val.description > 100){
-            val.description = val.description.substring(0,100);
+            val.description_short = val.description.substring(0,100);
         }
         else{
             val.description = val.description
