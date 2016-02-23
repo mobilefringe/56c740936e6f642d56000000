@@ -1,7 +1,9 @@
 <div class="content_container main_container">
     <h3 class="promo_main_header">SPECIALS</h3>
-    <select id="category_container" class="show_phone">
-        
+    <select id="category_container2" class="show_phone">
+        <script id="category_template" type="x-tmpl-mustache/text">
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
+                </script>
     </select>
     <div class="row">
         <div class="col-md-8">
