@@ -41,7 +41,7 @@ function renderPromotions(container, template, collection, mall_name){
         }
         else{
             val.store_name = mall_name;
-            val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
+            val.image_url = "";
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
