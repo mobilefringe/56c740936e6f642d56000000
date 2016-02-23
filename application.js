@@ -27,6 +27,43 @@ function init(e){
     
 }
 
+function renderPromotions(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if (val.promotionable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.promotionable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.image_url = store_details.store_front_url_abs;
+        }
+        else{
+            val.store_name = "Dixie Outlet";
+            val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
+        }
+        
+        if(val.image_url.indexOf('missing.png') > 0){
+            val.image_url  = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";;
+        }
+        
+        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
+        start = new Date (val.start_date + "T05:00:00Z");
+        end = new Date (val.end_date + "T05:00:00Z");
+    
+        if (start.toDateString() == end.toDateString()) {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+        } else {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+
 function renderGeneral(container, template, collection){
     var item_list = [];
     var item_rendered = [];
