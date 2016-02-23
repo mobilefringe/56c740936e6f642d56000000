@@ -1,5 +1,8 @@
 <div class="content_container main_container">
     <h3 class="promo_main_header">SPECIALS</h3>
+    <select id="category_container" class="show_phone">
+        
+    </select>
     <div class="row">
         <div class="col-md-8">
             <div id="promos_container">
