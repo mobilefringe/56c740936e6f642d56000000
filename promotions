@@ -6,10 +6,10 @@
                 <script id="promos_template" type="x-tmpl-mustache/text">
                     <div class="row">
                         <div class="col-md-4">
-                            {{name}}
+                            
                         </div>
                         <div class="col-md-8">
-                            
+                            {{name}}
                         </div>
                     </div>
                 </script>
