@@ -10,6 +10,7 @@
                         </div>
                         <div class="col-md-7">
                             <h2 class="promo_list_name">{{name}}</h2>
+                            <p><span>{{dates}}</span></p>
                             <div class="promo_list_desc">{{description_short}}</div>
                         </div>
                     </div>
