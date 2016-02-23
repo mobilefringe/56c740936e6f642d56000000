@@ -52,7 +52,7 @@ function renderPromotions(container, template, collection, mall_name){
             val.description_short = val.description.substring(0,100);
         }
         else{
-            val.description = val.description
+            val.description_short = val.description
         }
         
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
