@@ -9,7 +9,7 @@
                             <img src="{{image_url}}" alt="{{name}}" />
                         </div>
                         <div class="col-md-7">
-                            <h2>{{name}}</h2>
+                            <h2 class="promo_list_name">{{name}}</h2>
                         </div>
                     </div>
                 </script>
