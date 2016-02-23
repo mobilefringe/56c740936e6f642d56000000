@@ -48,7 +48,7 @@ function renderPromotions(container, template, collection, mall_name){
             val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
-        if(val.description > 100){
+        if(val.description.length > 100){
             val.description_short = val.description.substring(0,100);
         }
         else{
