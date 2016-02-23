@@ -36,7 +36,7 @@
                 } 
             });
             if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos);
+                renderPromotions("#promos_container","#promos_template", published_promos, "Virginia Gateway");
             }
             else{
                 $('#no_promos').show()
