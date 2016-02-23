@@ -1,7 +1,7 @@
 <div class="content_container main_container">
     <h3 class="promo_main_header">SPECIALS</h3>
-    <select id="category_container2" class="show_phone">
-        <script id="mobile_cat_list" type="x-tmpl-mustache/text">
+    <select id="mobile_cat_list" class="show_phone">
+        <script id="category_template2" type="x-tmpl-mustache/text">
             <option value="{{id}}">{{name}}</option>
         </script>
     </select>
