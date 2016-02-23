@@ -6,7 +6,7 @@
                 <option value="{{id}}">{{name}}</option>
             </script>
         </select>
-    </h3>
+    </div>
     <div class="row">
         <div class="col-md-8">
             <div id="promos_container">
