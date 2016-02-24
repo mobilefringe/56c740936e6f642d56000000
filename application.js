@@ -146,7 +146,7 @@ function renderPromoDetails(container, template, collection){
             val.store_detail_btn = store_details.slug;
             val.store_name = store_details.name;
             if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
-                val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
+                val.image_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
             }
             else{
                 val.image_url = store_details.store_front_url_abs;
