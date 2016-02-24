@@ -91,11 +91,20 @@ function renderStoreList(container, template, collection, starter, breaker){
     Mustache.parse(template_html);   // optional, speeds up future uses
     var store_initial="";
     $.each( collection , function( key, val ) {
+        if (val.promotionable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.promotionable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.image_url = val.promo_image_url_abs;
+            val.cat_list = store_details.categories.join(',')
+        }
+        else{
+            val.store_name = mall_name;
+            val.image_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+        }
         
-        if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-            val.alt_store_front_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
-        } else {
-            val.alt_store_front_url = getImageURL(val.store_front_url);    
+        if(val.image_url.indexOf('missing.png') > 0){
+            val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
             
         //var categories = getStoreCategories();
