@@ -141,20 +141,10 @@ function renderPromoDetails(container, template, collection){
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if (val.promotionable_type == "Store") {
-            var store_details = getStoreDetailsByID(val.promotionable_id);
-            val.store_detail_btn = store_details.slug;
-            val.store_name = store_details.name;
-            if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
-                val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
-            }
-            else{
-                val.image_url = store_details.store_front_url_abs;
-            }
-        }
-        else{
-            val.store_name = "Dixie Outlet";
-            val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
+        if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
+            val.alt_store_front_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+        } else {
+            val.alt_store_front_url = getImageURL(val.store_front_url);    
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
