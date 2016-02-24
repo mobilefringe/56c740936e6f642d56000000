@@ -1,5 +1,5 @@
 <div class="content_container main_container">
-    <!--<div class="direction_contaier">-->
+    <div class="direction_contaier">
         <div class="row">
             <div class="col-md-8">
             </div>
@@ -8,5 +8,5 @@
                 <img style="" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456330970000/Plaza.png" class="" alt="">
             </div> 
         </div>
-    <!--</div>-->
+    </div>
 </div>
