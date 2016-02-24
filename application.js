@@ -146,7 +146,6 @@ function renderPromoDetails(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = val.promo_image_url_abs;
-            val.cat_list = store_details.categories.join(',')
         }
         else{
             val.store_name = mall_name;
