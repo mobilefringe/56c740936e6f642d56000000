@@ -28,7 +28,17 @@ Gainesville, Virginia 20155</div>
                 </div>
                     <div class="col-md-12">
                         <h2 class="promo_list_name">Marketing & Events</h2>
-                        <p class="promo_list_desc">Take VA-234 BR N/Sudley Road to I-66 West toward Front Royal. Take exit 43A on the right, toward VA 619 E/Linton Hall Road. Keep right, follow signs for Linton Hall Rd. Turn left onto Linton Hall Road and the shopping center will be on your left.</p>
+                        <div class="col-md-6">
+                            <a href="">Bridget Graves</a>
+                            <div class="contact_addresss promo_list_desc">
+                                Senior Property Manager<br/>bgraves@petersoncos.com<br/>703-227-0883
+                            </div>
+                            
+                            <a href="">Michelle Palumbo</a>
+                            <div class="contact_addresss promo_list_desc">
+                                Property Assistant<br/>mpalumbo@petersoncos.com<br/>703-653-8812
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-12">
                         <h2 class="promo_list_name">Retail Leasing & Development</h2>
