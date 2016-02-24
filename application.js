@@ -107,6 +107,7 @@ function renderStoreList(container, template, collection, starter, breaker){
             val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
             
+            console.log(val)
         //var categories = getStoreCategories();
         var current_initial = val.name[0];
         val.cat_list = val.categories.join(',')
