@@ -153,8 +153,8 @@ function renderPromoDetails(container, template, collection){
             }
         }
         else{
-            val.store_name = "Dixie Outlet";
-            val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
+            val.store_name = "Virginia Gateway";
+            val.image_url = "";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
