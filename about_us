@@ -2,7 +2,7 @@
     <div class="about_contaier">
         <div class="row">
             <div class="col-md-8">
-                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456347907000/about_us.png" class="" alt="">
+                <img class="about_banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456347907000/about_us.png" class="" alt="">
                 
                 <h2 class="promo_list_name">From Leesburg</h2>
                 <p class="promo_list_desc">Take US-15 S to I-66 East toward Washington. Use the right lanes to take exit 43A-43B for US29 S Gainesville. Keep right, follow signs for Linton Hall Road. Keep right, follow signs for Linton Hall Rd. Turn left onto Linton Hall Road and the shopping center will be on your left.</p>
