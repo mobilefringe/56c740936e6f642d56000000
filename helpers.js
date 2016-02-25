@@ -51,7 +51,7 @@ function show_pin(param){
 		$("#m_no_pin_"+store_id).hide();
 		$("#m_show_pin_"+store_id).show();
 	}
-	$('#store_table').hide()
+	$('.store_table').hide()
 	
 	return false;
 }
