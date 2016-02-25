@@ -3,7 +3,7 @@
     <a href="#" class="locate_store">Locate store <i class="fa fa-search"></i></a>
     <ul id="store_list_container_map">
         <script id="store_list_template_map" type="x-tmpl-mustache/text">
-            
+            <li><a href="#" store_id="{{id}}" onclick="return show_pin(this)">{{name}}</a><li>
         </script>
     </ul>
     <div id="map" class="hidden_phone">
