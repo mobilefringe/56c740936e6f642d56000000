@@ -25,6 +25,9 @@ function init(e){
      
     })
     
+    $('.locate_store').click(function(){
+        $('#store_list_container_map').hide()
+    })
 }
 
 function renderPromotions(container, template, collection, mall_name){
