@@ -26,7 +26,7 @@ function init(e){
     })
     
     $('.locate_store').click(function(){
-        $('#stores_table').fadeIn()
+        $('.stores_table').fadeIn()
     })
 }
 
