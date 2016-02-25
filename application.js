@@ -141,7 +141,7 @@ function renderPromoDetails(container, template, collection, mall_name){
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        console.log(mall_name)
+        
         if (val.promotionable_type == "Store") {
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
@@ -152,7 +152,7 @@ function renderPromoDetails(container, template, collection, mall_name){
             val.store_name = mall_name;
             val.image_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
-        
+        console.log(val)
         val.image_url = val.promo_image_url_abs
         
         if(val.image_url.indexOf('missing.png') > 0){
