@@ -25,7 +25,8 @@ function init(e){
      
     })
     
-    $('.locate_store').click(function(){
+    $('.locate_store').click(function(e){
+        e.preventDefault();
         $('.stores_table').show()
     })
 }
