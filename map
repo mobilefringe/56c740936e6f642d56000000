@@ -8,7 +8,7 @@
             </script>
         </ul>
     </div>
-    <div id="map" class="hidden_phone">
+    <div id="map2" class="hidden_phone">
         <img alt="map" id="map_image" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
     </div>
     
@@ -28,7 +28,7 @@
                $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none"><a style="color:#fff" href=/stores/'+val.slug +'>' + val.name + '</a></div>')
             });  
             
-            $('#map').craftmap({
+            $('#map2').craftmap({
     			image: {
     				width: 850,
     				height: 850,
