@@ -141,7 +141,7 @@ function renderPromoDetails(container, template, collection, mall_name){
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        console.log(val)
+        console.log(mall_name)
         if (val.promotionable_type == "Store") {
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
