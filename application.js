@@ -26,7 +26,7 @@ function init(e){
     })
     
     $('.locate_store').click(function(){
-        $('#store_list_container_map').hide()
+        $('#store_list_container_map').fadeIn()
     })
 }
 
