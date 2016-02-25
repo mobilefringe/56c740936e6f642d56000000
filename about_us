@@ -37,3 +37,9 @@ For more information on events, promotions and real-time updates, follow Virgini
         </div>
     </div>
 </div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+    })
+</script>
