@@ -134,7 +134,7 @@ function renderStoreList(container, template, collection, starter, breaker){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPromoDetails(container, template, collection){
+function renderPromoDetails(container, template, collection, mall_name){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
