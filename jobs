@@ -31,13 +31,20 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var jobs = getJobsList().sortBy(function(o){ return o.start_date });
-            
-            if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos, "Virginia Gateway");
+            var jobs = getJobsList().sortBy(function(o){ return o.name});
+            var published_jobs = [];
+            $.each( jobs , function( key, val ){
+                today = new Date();
+                webDate = new Date(val.show_on_web_date)
+                if (today >= webDate) {
+                    published_jobs.push(val)
+                } 
+            });
+            if(published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', published_jobs);
             }
             else{
-                $('#no_promos').show()
+                $('#no_jobs').show()
             }
             
         }
