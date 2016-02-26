@@ -151,7 +151,7 @@ function renderPromoDetails(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.store_image = store_details.store_front_url_abs;
-            val.slug = store_details.slug
+            val.store_slug = store_details.slug
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:inline-block";
                 val.website = store_details.website
