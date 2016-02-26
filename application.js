@@ -165,6 +165,7 @@ function renderPromoDetails(container, template, collection){
             }
             else{
                 val.phone_show = "display:none";
+                val.show = "display:none";
             }
         }
         else{
