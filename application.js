@@ -202,7 +202,7 @@ function renderJobs(container, template, collection, mall_name){
         else{
             val.description_short = val.description;
         }
-        if(val.job_type == undefined or val.job_type == ""){
+        if(val.job_type == 'undefined' or val.job_type == ""){
             val.job_type == "Full Time/Part Time"
         }
         var show_date = new Date (val.start_date + "T05:00:00Z");
