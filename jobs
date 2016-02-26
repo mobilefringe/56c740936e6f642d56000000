@@ -11,7 +11,7 @@
                             <h2 class="promo_list_name">{{name}}</h2>
                             <p>
                                 <span class="promo_store">{{store_name}}</span>
-                                <span class="promo_dates">{{dates}}</span>
+                                <span class="promo_dates">{{published_on}}</span>
                             </p>
                             <div class="promo_list_desc">{{description_short}}</div>
                             <a class="read_more" href="/jobs/{{slug}}">Read More</a>
