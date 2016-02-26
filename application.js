@@ -153,6 +153,7 @@ function renderPromoDetails(container, template, collection){
             val.store_image = store_details.store_front_url_abs;
             if (store_details.website != null && store_details.website.length > 0){
                 val.show = "display:inline-block";
+                val.website = store_details.website
             }
             else{
                 val.show = "display:none";
