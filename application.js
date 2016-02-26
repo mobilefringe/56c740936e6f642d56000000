@@ -224,10 +224,7 @@ function renderStoreDetails(container, template, collection, slug){
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
-        val.category_list = getCategoriesNamesByStoreSlug(slug);
-        val.map_x_coordinate = val.x_coordinate - 19;
-        val.map_y_coordinate = val.y_coordinate - 58;
-        val.property_map = getPropertyDetails().mm_host + getPropertyDetails().map_url;
+        
         if (val.website != null && val.website.length > 0){
             val.show = "display:inline-block";
         }
@@ -248,12 +245,6 @@ function renderStoreDetails(container, template, collection, slug){
             val.twitter_show = "display:none";
         }
         
-        if (val.twitter_show == "display:none" && val.phone_show == "display:none" ){
-            val.show_line = "display:none";
-        }
-        else{
-            val.show_line = "display:block";
-        }
         if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
             val.hide_social = "display:none;";
         }
