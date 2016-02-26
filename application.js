@@ -200,7 +200,7 @@ function renderJobs(container, template, collection, mall_name){
             val.description_short = val.description.substring(0,200) + "...";
         }
         else{
-            val.description_short = val.description
+            val.description_short = val.description;
         }
         
         var show_date = new Date (val.start_date + "T05:00:00Z");
