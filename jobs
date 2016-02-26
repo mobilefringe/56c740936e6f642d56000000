@@ -32,7 +32,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var jobs = getPromotionsList().sortBy(function(o){ return o.name});
+            var jobs = getJobsList().sortBy(function(o){ return o.name});
             var published_jobs = [];
             $.each( jobs , function( key, val ){
                 today = new Date();
