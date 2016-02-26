@@ -196,6 +196,7 @@ function renderJobs(container, template, collection, mall_name){
         else{
             val.store_name = mall_name;
         }
+        console.log(val)
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
