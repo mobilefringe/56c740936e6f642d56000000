@@ -196,8 +196,8 @@ function renderJobs(container, template, collection, mall_name){
         else{
             val.store_name = mall_name;
         }
-        
-        var show_date = new Date (val.start_date + "T05:00:00Z");
+        console.log(val)
+        var show_date = new Date (val.start_Date + "T05:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
         var rendered = Mustache.render(template_html,val);
