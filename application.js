@@ -138,7 +138,7 @@ function renderStoreList(container, template, collection, starter, breaker){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPromoDetails(container, template, collection, mall_name){
+function renderPromoDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
@@ -183,7 +183,7 @@ function renderPromoDetails(container, template, collection, mall_name){
     $(container).html(item_rendered.join(''));
 }
 
-function renderJobs(container, template, collection, mall_name){
+function renderJobs(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
