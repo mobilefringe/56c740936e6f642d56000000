@@ -205,7 +205,7 @@ function renderJobs(container, template, collection, mall_name){
         if(val.job_type == undefined ){
             val.job_type == "Full Time/Part Time"
         }
-        console.log(val.job_type == undefined )
+        console.log(val)
         var show_date = new Date (val.start_date + "T05:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
