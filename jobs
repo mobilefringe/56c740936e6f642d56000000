@@ -31,7 +31,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var jobs = getPromotionsList().sortBy(function(o){ return o.start_date });
+            var jobs = getJobList().sortBy(function(o){ return o.start_date });
             
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos, "Virginia Gateway");
