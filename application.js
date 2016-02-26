@@ -160,7 +160,7 @@ function renderPromoDetails(container, template, collection){
             }
             if (store_details.phone != null && store_details.phone.length > 0){
                 val.phone_show = "display:inline-block";
-                val.website = store_details.website
+                val.phone = store_details.phone
             }
             else{
                 val.phone_show = "display:none";
