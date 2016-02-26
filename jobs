@@ -32,7 +32,6 @@
         init(e);
         function renderAll (){
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
-            var categories = getStoreCategories();
             
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos, "Virginia Gateway");
