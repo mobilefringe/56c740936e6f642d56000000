@@ -196,6 +196,12 @@ function renderJobs(container, template, collection, mall_name){
         else{
             val.store_name = mall_name;
         }
+        if(val.description.length > 200){
+            val.description_short = val.description.substring(0,200) + "...";
+        }
+        else{
+            val.description_short = val.description
+        }
         var show_date = new Date (val.start_date + "T05:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
