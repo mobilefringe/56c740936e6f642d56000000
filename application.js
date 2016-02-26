@@ -202,9 +202,7 @@ function renderJobs(container, template, collection, mall_name){
         else{
             val.description_short = val.description;
         }
-        if(val.job_type == undefined or val.job_type == ""){
-            
-        }
+        
         var show_date = new Date (val.start_date + "T05:00:00Z");
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
