@@ -183,6 +183,28 @@ function renderPromoDetails(container, template, collection, mall_name){
     $(container).html(item_rendered.join(''));
 }
 
+function renderJobs(container, template, collection, mall_name){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if(val.jobable_type == "Store"){
+            val.store_name = getStoreDetailsByID(val.jobable_id).name;
+            val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
+        }
+        else{
+            val.store_name = "Dixie Outlet";
+        }
+        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
+        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
 
 
 
