@@ -151,6 +151,18 @@ function renderPromoDetails(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.store_image = store_details.store_front_url_abs;
+            if (store_details.website != null && store_details.website.length > 0){
+                val.show = "display:inline-block";
+            }
+            else{
+                val.show = "display:none";
+            }
+            if (store_details.phone != null && store_details.phone.length > 0){
+                val.phone_show = "display:inline-block";
+            }
+            else{
+                val.phone_show = "display:none";
+            }
         }
         else{
             val.store_name = mall_name;
