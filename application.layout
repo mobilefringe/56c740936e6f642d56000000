@@ -39,7 +39,9 @@
     <script>
         setEndPoint('http://vagateway.mallmaverick.com/api/v2/vagateway/all.json');
     </script>
-
+    <script>
+        var mall_name = "Virginia Gateway";
+    </script>
 </head>
 
 <body class="">
