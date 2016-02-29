@@ -182,7 +182,9 @@ function site_search(){
             var s_stores = results.stores;
             var s_events = results.events;
             var s_promos = results.promotions;
-            
+            if(results.length > 0){
+                $('#search_results_stores').show();
+            }
             if(s_stores !=undefined && s_stores.length > 0){
                 var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
                 $('#search_results_stores').append(h2_stores);
@@ -191,7 +193,6 @@ function site_search(){
                     div_stores = div_stores + "<h4><a href='/stores/" + v.slug + "'>" + v.name + "</a></h4>";
                     div_stores = div_stores + "</div>";
                     $('#search_results_stores').append(div_stores);
-                    $('#search_results_stores').show();
                 });
             }
             if(s_promos != undefined && s_promos.length > 0){
@@ -202,7 +203,6 @@ function site_search(){
                     div = div + "<h4><a href='/promotions/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
                     $('#search_results_promotions').append(div);
-                    $('#search_results_promotions').show();
                 });
             }   
             if(s_events != undefined && s_events.length > 0){
@@ -213,7 +213,6 @@ function site_search(){
                     div = div + "<h4><a href='/events/" + v.slug + "'>" + v.name + "</a></h4>";
                     div = div + "</div>";
                     $('#search_results_stores').append(div);
-                    $('#search_results_stores').show();
                 });
             }
             
