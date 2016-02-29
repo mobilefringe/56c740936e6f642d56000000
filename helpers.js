@@ -182,7 +182,8 @@ function site_search(){
             var s_stores = results.stores;
             var s_events = results.events;
             var s_promos = results.promotions;
-            if(results.length > 0){
+            var total_results = s_stores + s_events + s_promos
+            if(s_stores.length ){
                 $('.search_results_container').show();
             }
             if(s_stores !=undefined && s_stores.length > 0){
