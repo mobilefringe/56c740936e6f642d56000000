@@ -168,6 +168,7 @@ function site_search(){
             $('#search_results_promotions').html('');
             $('.search_results_container').hide();
             $('#close_search').hide();
+            $('body').removeClass('no_scroll')
         }
         else{
             $('#close_search').show();
