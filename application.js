@@ -30,6 +30,9 @@ function init(e){
         $('.stores_table').show()
     })
     site_search();
+    $('.search_btn').click(function(){
+        $('.mobile_search').fadeIn();
+    })
     
 
 }
