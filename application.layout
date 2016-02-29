@@ -82,7 +82,7 @@
         </div>
     </div>
     <section class="content_container main_container position_relative">
-        <div class="mobile_search">
+        <div class="mobile_search show_phone">
             <input type="text" placeholder="Search" id="site_search" class="site_search" />
             <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
         </div>
