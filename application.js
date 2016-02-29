@@ -29,7 +29,7 @@ function init(e){
         e.preventDefault();
         $('.stores_table').show()
     })
-    
+    site_search();
     
 
 }
