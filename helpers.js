@@ -166,7 +166,7 @@ function site_search(){
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
-            $('.search_results_container').show();
+            $('.search_results_container').hide();
             $('#close_search').hide();
         }
         else{
