@@ -81,7 +81,7 @@
             </div>
         </div>
     </div>
-    <section class="content_container main_container">
+    <section class="content_container main_container position_relative">
         <div class="site_search mobile_search">
             
         </div>
