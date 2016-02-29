@@ -13,7 +13,7 @@
    
     <!--CSS-->
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <link href="http://assets.codecloudapp.com/sites/54b83f086e6f646b45000000/60cb7d89e157debbb7914a941327ad2c/animate.css" rel="stylesheet" type="text/css">
     <link href="http://assets.codecloudapp.com/sites/54b83f086e6f646b45000000/f6dbff9c3ff2572186f780a16fceabf0/flexslider.css" rel="stylesheet">
     <link rel="stylesheet" href="http://assets.codecloudapp.com/sites/54b83f086e6f646b45000000/60cb7d89e157debbb7914a941327ad2c/prettyPhoto.css" type="text/css" media="screen">
