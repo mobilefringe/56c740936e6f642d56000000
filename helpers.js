@@ -183,7 +183,7 @@ function site_search(){
             var s_events = results.events;
             var s_promos = results.promotions;
             if(results.length > 0){
-                $('#search_results_stores').show();
+                $('.search_results_container').show();
             }
             if(s_stores !=undefined && s_stores.length > 0){
                 var h2_stores = "<h2 id='open_stores' class='li_open'>(" +s_stores.length + ") Stores<i class='pull-right fa fa-chevron-down'></i></h2>";
