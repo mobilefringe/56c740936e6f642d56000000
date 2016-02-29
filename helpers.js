@@ -177,7 +177,7 @@ $('#site_search').keyup(function(){
             $('#search_results_promotions').html('');
             
             var val = $(this).val().toLowerCase();
-            
+            console.log(val)
             results = getSearchResults(val);
             var s_stores = results.stores;
             var s_events = results.events;
