@@ -82,8 +82,8 @@
         </div>
     </div>
     <section class="content_container main_container position_relative">
-        <div class="site_search mobile_search">
-            
+        <div class="mobile_search">
+            <input type="text" placeholder="Search" id="site_search" class="site_search search_field hidden_phone" />
         </div>
         <div class="row header mobile_margin">
             <div class="col-md-4 col-xs-4">
