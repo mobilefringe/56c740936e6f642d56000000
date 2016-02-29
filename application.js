@@ -35,6 +35,7 @@ function init(e){
     })
     $('.close_search').click(function(){
         $('.mobile_search').fadeOut();
+        $('.search_results_container').fadeOut();
     })
     
 
