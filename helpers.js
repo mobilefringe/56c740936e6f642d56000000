@@ -168,7 +168,6 @@ function site_search(){
             $('#search_results_promotions').html('');
             $('.search_results_container').hide();
             $('#close_search').hide();
-            $('body').removeClass('no_scroll')
         }
         else{
             $('#close_search').show();
@@ -203,7 +202,6 @@ function site_search(){
                     div = div + "</div>";
                     $('#search_results_promotions').append(div);
                     $('.search_results_container').show();
-                    $('body').addClass('no_scroll')
                 });
             }   
             if(s_events != undefined && s_events.length > 0){
@@ -215,7 +213,6 @@ function site_search(){
                     div = div + "</div>";
                     $('#search_results_stores').append(div);
                     $('.search_results_container').show();
-                    $('body').addClass('no_scroll')
                 });
             }
             
