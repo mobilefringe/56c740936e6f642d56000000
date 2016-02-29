@@ -190,7 +190,6 @@ function site_search(){
                     div_stores = div_stores + "</div>";
                     $('#search_results_stores').append(div_stores);
                     $('.search_results_container').show();
-                    $('body').addClass('no_scroll')
                 });
             }
             if(s_promos != undefined && s_promos.length > 0){
