@@ -33,6 +33,9 @@ function init(e){
     $('.search_btn').click(function(){
         $('.mobile_search').fadeIn();
     })
+    $('.search_btn').click(function(){
+        $('.mobile_search').fadeIn();
+    })
     
 
 }
