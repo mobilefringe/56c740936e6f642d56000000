@@ -32,10 +32,12 @@ function init(e){
     site_search();
     $('.search_btn').click(function(){
         $('.mobile_search').fadeIn();
+        $('#site_search').focus()
     })
     $('.close_search').click(function(){
         $('.mobile_search').fadeOut();
         $('.search_results_container').fadeOut();
+        $('#site_search').val('')
     })
     
 
