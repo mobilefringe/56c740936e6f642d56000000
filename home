@@ -94,6 +94,9 @@
         $('.flexslider').flexslider({
             animation: "slide",
         });
+        function renderAll(){
+            
+        }
         
         loadMallDataCached(renderAll); 
     })
