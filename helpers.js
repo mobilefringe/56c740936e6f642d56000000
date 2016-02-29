@@ -162,8 +162,8 @@ function sortByKey(array, key) {
 
 function site_search(){
     $('.search_results_container').hover(
-           function(){ $('body').addClass('hover') },
-           function(){ $('body').removeClass('hover') }
+           function(){ $('body').addClass('no_scroll') },
+           function(){ $('body').removeClass('no_scroll') }
     )
     $('#site_search').keyup(function(){
         if ($('#site_search').val() == ""){
