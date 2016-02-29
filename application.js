@@ -44,7 +44,7 @@ function init(e){
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
-            console.log($(this))
+            console.log($(this).val)
             // var val = $(this).val().toLowerCase();
             // results = getSearchResults(val);
             // var s_stores = results.stores;
