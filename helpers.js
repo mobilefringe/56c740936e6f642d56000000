@@ -190,6 +190,7 @@ function site_search(){
                     div_stores = div_stores + "</div>";
                     $('#search_results_stores').append(div_stores);
                     $('.search_results_container').show();
+                    $('body').addClass('no_scroll')
                 });
             }
             if(s_promos != undefined && s_promos.length > 0){
@@ -201,6 +202,7 @@ function site_search(){
                     div = div + "</div>";
                     $('#search_results_promotions').append(div);
                     $('.search_results_container').show();
+                    $('body').addClass('no_scroll')
                 });
             }   
             if(s_events != undefined && s_events.length > 0){
@@ -212,6 +214,7 @@ function site_search(){
                     div = div + "</div>";
                     $('#search_results_stores').append(div);
                     $('.search_results_container').show();
+                    $('body').addClass('no_scroll')
                 });
             }
             
