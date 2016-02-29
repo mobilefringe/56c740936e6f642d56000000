@@ -44,9 +44,9 @@ function init(e){
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
-            console.log($(this).val())
-            // var val = $(this).val().toLowerCase();
-            // results = getSearchResults(val);
+            var val = $(this).val().toLowerCase();
+            results = getSearchResults(val);
+            console.log(results)
             // var s_stores = results.stores;
             // var s_events = results.events;
             // var s_promos = results.promotions;
