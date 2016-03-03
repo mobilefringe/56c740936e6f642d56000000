@@ -10,18 +10,16 @@
 
 <div class="content_container hidden_phone">
     <div class="flexslider">
-        <ul class="slides">
-                <li>
-                    <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-                </li>
-                <li>
-                    <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-                </li>
-                <li>
-                    <img alt="banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455915206000/banner.png" />
-                </li>
-        </ul>
-    </div>
+    <ul class="slides" id="home_banner">
+        <script id="banner_template" type="x-tmpl-mustache/text">
+            <li>
+                <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                    <img alt="banner" src="{{image_url}}" />
+                </a>
+            </li>
+        </script>
+    </ul>
+</div>
 </div>
 <div class="content_container main_container hidden_phone">
     <div class="feature_row" id="feature_container">
