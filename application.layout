@@ -134,7 +134,7 @@
             <a href="/directions">directions</a>
         </div>
     </section>
-    <section>
+    <section class="yield">
         {{yield}}
     </section>
     
