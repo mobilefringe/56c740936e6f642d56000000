@@ -44,7 +44,7 @@
                 <div class="promotion_item wow animated flipInX animated">
                     <a href="#">
                         <img src="{{image_url}}" />
-                        <h3 class="promotion_header">Banana Republic introduces a…</h3>
+                        <h3 class="promotion_header">{{name}}</h3>
                         <p class="promotion_dates">Feb 12 - Feb 20</p>
                     </a>
                 </div>
