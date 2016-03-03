@@ -37,7 +37,7 @@
     				position: 'center'
     			}
     		});
-            
+            show_content();
         }
         
 		loadMallDataCached(renderAll); 
