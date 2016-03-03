@@ -8,7 +8,7 @@
             </script>
         </ul>
     </div>
-    <div id="map2" class="">
+    <div id="map" class="hidden_phone">
         <img alt="map" id="map_image" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
     </div>
     
