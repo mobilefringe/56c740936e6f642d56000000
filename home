@@ -91,13 +91,17 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $('.flexslider').flexslider({
-            animation: "slide",
-        });
+        $.fn.snow({flakeColor: '#EE0000', newOn: 200});
         function renderAll(){
-            show_content()
+            var banners = getBanners();
+            var feature_items = getFeatureList();
+            renderBanner('#banner_template','#home_banner',banners);
+            renderFeatureItems('#feature_container','#feature_template', feature_items);
+            show_content();
+            $('.flexslider').flexslider({
+                animation: "slide",
+            });
         }
-        
-        loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
     })
 </script>
