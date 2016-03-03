@@ -115,6 +115,11 @@ function renderEvents(container, template, collection){
         else{
             val.description_short = val.description
         }
+        
+        if(val.event_image_url_abs.indexOf('missing.png') > -1){
+            val.promo_image_show="display:none";
+        }
+        
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
         start = new Date (val.start_date + "T05:00:00Z");
         end = new Date (val.end_date + "T05:00:00Z");
