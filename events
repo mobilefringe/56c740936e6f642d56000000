@@ -51,8 +51,8 @@
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores()
-            var published_promos = [];
-            $.each( promotions , function( key, val ){
+            var published_events = [];
+            $.each( events , function( key, val ){
                 today = new Date();
                 webDate = new Date(val.show_on_web_date)
                 if (today >= webDate) {
