@@ -117,7 +117,7 @@ function renderEvents(container, template, collection){
         }
         
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
-            val.promo_image_show="display:none";
+            val.event_image_url_abs="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
         var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
