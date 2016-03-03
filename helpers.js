@@ -1,3 +1,47 @@
+function init(e){
+    $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
+    $('.open_menu').click(function(e){
+        $('body').addClass('no_scroll');
+        $('.mobile_menu_container').fadeIn();
+    });
+    $('#close_menu').click(function(e){
+        $('body').removeClass('no_scroll');
+        $('.mobile_menu_container').fadeOut();
+    });
+    
+    $('#mobile_alpha_list').change(function(){
+        window.location.href = "#" + $(this).val().toUpperCase();
+    })
+    
+    $('#mobile_cat_list').change(function(){
+        var v = $(this).val();
+        if(v == "all"){
+            $('.show_all_stores').click();
+       }
+       else{
+           $('a[data-id="' + v + '"]').click();
+       }
+     
+    })
+    
+    $('.locate_store').click(function(e){
+        e.preventDefault();
+        $('.stores_table').show()
+    })
+    site_search();
+    $('.search_btn').click(function(){
+        $('.mobile_search').fadeIn();
+        $('#site_search').focus()
+    })
+    $('.close_search').click(function(){
+        $('.mobile_search').fadeOut();
+        $('.search_results_container').fadeOut();
+        $('#site_search').val('')
+    })
+    
+
+}
+
 function show_content(){
     $('.yield').fadeIn();
     $(".modal-backdrop").remove();
