@@ -41,7 +41,7 @@
         <p class="exclusive_deals">don’t miss our exclusive deals</p>
         <div class="home_promotions feature_row" id="promos_container">
             <script id="promos_template" type="x-tmpl-mustache/text">
-                <div class="promotion_item wow animated flipInX animated text-align">
+                <div class="promotion_item wow animated flipInX animated text-center">
                     <a href="#">
                         <img class="featured_promo_img" src="{{image_url}}" />
                         <h3 class="promotion_header">{{name}}</h3>
