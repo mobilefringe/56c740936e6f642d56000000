@@ -90,24 +90,24 @@
             <div class="col-md-4 col-xs-4">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
-                    <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899536000/icon_facebook.png" class="" alt="FB">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899545000/icon_twitter.png" class="" alt="Twitter">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899555000/icon_insta.png" class="" alt="Instagram">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899562000/icon_yt.png" class="" alt="YouTube">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899570000/icon_gplus.png" class="" alt="Google Plus">
-                    </a>
-                    <a href="#" target="_blank">
-                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899577000/icon_newsletter.png" class="" alt="">
-                    </a>
+                    <a href="https://www.facebook.com/pages/Virginia-Gateway/283283508519" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911898000/icon_facebook2.png" class="" alt="FB">
+                </a>
+                <a href="https://twitter.com/VAGateway" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911906000/icon_twitter2.png" class="" alt="Twitter">
+                </a>
+                <a href="http://instagram.com/VAGateway" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911913000/icon_insta2.png" class="" alt="Instagram">
+                </a>
+                <a href="http://www.youtube.com/channel/UC175yccg8-RkPlUQU4d-YjA" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911921000/icon_yt2.png" class="" alt="YouTube">
+                </a>
+                <a href="https://plus.google.com/b/101788305961537968923/+Vagateway/posts" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911930000/icon_gplus2.png" class="" alt="Google Plus">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911937000/icon_newsletter2.png" class="" alt="">
+                </a>
                 </div>
                 <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
