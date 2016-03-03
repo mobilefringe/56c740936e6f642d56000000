@@ -39,8 +39,8 @@
     <div class="promotions">
         <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
         <p class="exclusive_deals">don’t miss our exclusive deals</p>
-        <div class="home_promotions feature_row" id="feature_container">
-            <script id="feature_template" type="x-tmpl-mustache/text">
+        <div class="home_promotions feature_row" id="promos_container">
+            <script id="promos_template" type="x-tmpl-mustache/text">
                 <div class="promotion_item wow animated flipInX animated">
                     <a href="#">
                         <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455991826000/1promo.png" />
