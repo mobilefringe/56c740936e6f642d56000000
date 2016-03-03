@@ -95,7 +95,7 @@
             animation: "slide",
         });
         function renderAll(){
-            
+            show_content()
         }
         
         loadMallDataCached(renderAll); 
