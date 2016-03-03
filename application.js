@@ -1,3 +1,5 @@
+/*Created 2015-02-28 by CodeCloud Team*/
+
 
 
 function renderBanner(banner_template,home_banner,banners){
