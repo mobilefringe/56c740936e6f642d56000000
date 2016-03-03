@@ -296,7 +296,7 @@ function renderEventDetails(container, template, collection){
             val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
-        if(val.promo_image_url_abs.indexOf('missing.png') > -1){
+        if(val.event_image_url_abs.indexOf('missing.png') > -1){
             val.promo_image_show="display:none";
         }
         
