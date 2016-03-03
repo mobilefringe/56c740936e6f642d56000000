@@ -39,28 +39,16 @@
     <div class="promotions">
         <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
         <p class="exclusive_deals">don’t miss our exclusive deals</p>
-        <div class="home_promotions feature_row">
-            <div class="promotion_item wow animated flipInX animated">
-                <a href="#">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455991826000/1promo.png" />
-                    <h3 class="promotion_header">Banana Republic introduces a…</h3>
-                    <p class="promotion_dates">Feb 12 - Feb 20</p>
-                </a>
-            </div>
-            <div class="promotion_item wow animated flipInX animated">
-                <a href="#">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455991826000/1promo.png" />
-                    <h3 class="promotion_header">Banana Republic introduces a…</h3>
-                    <p class="promotion_dates">Feb 12 - Feb 20</p>
-                </a>
-            </div>
-            <div class="promotion_item wow animated flipInX animated">
-                <a href="#">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455991826000/1promo.png" />
-                    <h3 class="promotion_header">Banana Republic introduces a…</h3>
-                    <p class="promotion_dates">Feb 12 - Feb 20</p>
-                </a>
-            </div>
+        <div class="home_promotions feature_row" id="feature_container">
+            <script id="feature_template" type="x-tmpl-mustache/text">
+                <div class="promotion_item wow animated flipInX animated">
+                    <a href="#">
+                        <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455991826000/1promo.png" />
+                        <h3 class="promotion_header">Banana Republic introduces a…</h3>
+                        <p class="promotion_dates">Feb 12 - Feb 20</p>
+                    </a>
+                </div>
+            </script>
         </div>
         <div class="clearfix"></div>
     </div>
