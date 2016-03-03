@@ -65,7 +65,7 @@
             else{
                 $('#no_promos').show()
             }
-            
+            show_content();
         }
         
 		loadMallDataCached(renderAll); 
