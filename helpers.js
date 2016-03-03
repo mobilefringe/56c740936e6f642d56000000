@@ -1,3 +1,9 @@
+function show_content(){
+    $('.yield').fadeIn();
+    $(".modal-backdrop").remove();
+}
+
+
 function show_cat_stores(){
     $('.show_cat_stores').click(function(e){
         var cat_id = $(this).attr('data-id');
