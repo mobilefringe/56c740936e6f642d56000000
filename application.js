@@ -98,27 +98,6 @@ function renderEvents(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = store_details.store_front_url_abs;
-        }
-        else{
-            val.store_name = "Dixie Outlet";
-            val.image_url = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
-        }
-        if(val.event_image_url_abs.indexOf('missing.png') < 0){
-            val.logo = val.event_image_url_abs;
-        }
-        else{
-            if(val.image_url.indexOf('missing.png') < 0){
-                val.logo = val.image_url;
-            }
-            else{
-                val.logo = "http://assets.codecloudapp.com/sites/56ba0abc6e6f644468020000/image/jpeg/1446753494000/Dixie_default.jpg";
-            }
-        }
-        if (val.eventable_type == "Store") {
-            var store_details = getStoreDetailsByID(val.eventable_id);
-            val.store_detail_btn = store_details.slug ;
-            val.store_name = store_details.name;
-            val.image_url = store_details.store_front_url_abs;
             val.cat_list = store_details.categories.join(',')
         }
         else{
