@@ -41,5 +41,6 @@ For more information on events, promotions and real-time updates, follow Virgini
 <script>
     $(document).ready(function(e){
         init(e);
+        show_content()
     })
 </script>
