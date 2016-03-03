@@ -229,7 +229,6 @@ function renderPromoDetails(container, template, collection){
             val.store_show = "display:none";
             val.phone_show = "display:none";
         }
-        console.log(val)
         val.image_url = val.promo_image_url_abs
         
         if(val.image_url.indexOf('missing.png') > 0){
@@ -250,6 +249,66 @@ function renderPromoDetails(container, template, collection){
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
         }
         
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+function renderEventDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if (val.promotionable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.promotionable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.store_image = store_details.store_front_url_abs;
+            val.store_slug = store_details.slug
+            if (store_details.website != null && store_details.website.length > 0){
+                val.show = "display:inline-block";
+                val.website = store_details.website
+            }
+            else{
+                val.show = "display:none";
+            }
+            if (store_details.phone != null && store_details.phone.length > 0){
+                val.phone_show = "display:inline-block";
+                val.phone = store_details.phone
+            }
+            else{
+                val.phone_show = "display:none";
+                val.show = "display:none";
+            }
+        }
+        else{
+            val.store_name = mall_name;
+            val.store_image = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+            val.store_show = "display:none";
+            val.phone_show = "display:none";
+        }
+        val.image_url = val.promo_image_url_abs
+        
+        if(val.image_url.indexOf('missing.png') > 0){
+            val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+        }
+        
+        if(val.promo_image_url_abs.indexOf('missing.png') > -1){
+            val.promo_image_show="display:none";
+        }
+        
+        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
+        start = new Date (val.start_date + "T05:00:00Z");
+        end = new Date (val.end_date + "T05:00:00Z");
+    
+        if (start.toDateString() == end.toDateString()) {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+        } else {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
