@@ -91,7 +91,6 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        $.fn.snow({flakeColor: '#EE0000', newOn: 200});
         function renderAll(){
             var banners = getBanners();
             var feature_items = getFeatureList();
