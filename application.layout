@@ -128,10 +128,10 @@
         </div>
         
         <div class="menu_container hidden_phone">
-            <a href="#">shop & entertainment</a>
-            <a href="#">events</a>
-            <a href="#">specials</a>
-            <a href="#">directions</a>
+            <a href="/stores">shop & entertainment</a>
+            <a href="/events">events</a>
+            <a href="/promotions">specials</a>
+            <a href="/directions">directions</a>
         </div>
     </section>
     <section>
