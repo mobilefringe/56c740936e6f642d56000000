@@ -1,6 +1,7 @@
 /*Created 2015-02-28 by CodeCloud Team*/
 
 function init(e){
+    $('<div class="modal-backdrop custom_backdrop"><img src="http://kodekloud.s3.amazonaws.com/sites/554a79236e6f64713f000000/69e8cd982124dc73de1f5a67a627ee75/loading.gif" class="" alt=""></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
         $('body').addClass('no_scroll');
         $('.mobile_menu_container').fadeIn();
