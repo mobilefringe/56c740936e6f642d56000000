@@ -48,7 +48,7 @@
             else{
                 $('#no_jobs').show()
             }
-            
+            show_content();
         }
         
 		loadMallDataCached(renderAll); 
