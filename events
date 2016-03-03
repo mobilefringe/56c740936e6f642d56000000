@@ -56,7 +56,7 @@
                 today = new Date();
                 webDate = new Date(val.show_on_web_date)
                 if (today >= webDate) {
-                    published_promos.push(val)
+                    published_events.push(val)
                 } 
             });
             if(published_promos.length > 0){
