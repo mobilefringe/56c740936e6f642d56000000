@@ -23,7 +23,7 @@
 </div>
 <div class="content_container main_container hidden_phone">
     <div class="feature_row" id="feature_container">
-        <script id="banner_template" type="x-tmpl-mustache/text">
+        <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item wow animated flipInX animated">
                 <a href="#">
                     <figure style="background-image:url('http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455919325000/1.png')">
