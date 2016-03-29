@@ -13,9 +13,10 @@
     <ul class="slides" id="home_banner">
         <script id="banner_template" type="x-tmpl-mustache/text">
             <li>
-                <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" style="background:{{image_url}}">
-                    
-                </a>
+                <div style="background:{{image_url}}">
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                    </a>
+                </div>
             </li>
         </script>
     </ul>
