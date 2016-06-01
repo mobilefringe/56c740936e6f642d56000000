@@ -131,9 +131,9 @@ function renderEvents(container, template, collection){
             val.event_image_url_abs="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        start = new Date (val.start_date + "T05:00:00Z");
-        end = new Date (val.end_date + "T05:00:00Z");
+        var show_date = new Date (val.show_on_web_date);
+        start = new Date (val.start_date);
+        end = new Date (val.end_date);
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -241,7 +241,7 @@ function renderPromoDetails(container, template, collection){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+            val.store_image = "";
             val.store_show = "display:none";
             val.phone_show = "display:none";
         }
