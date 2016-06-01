@@ -115,14 +115,14 @@
                 </a>
             </div>
             <div class="col-md-4 col-xs-4 text-right position_relative">
-                <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn " alt="search">
-                <input type="text" placeholder="Search" id="site_search" class="site_search search_field hidden_phone" />
-                <div class="search_results_container">
-                    <div class="site_search_results" id="search_results_stores"></div>
-                    <div class="site_search_results" id="search_results_events"></div>
-                    <div class="site_search_results" id="search_results_promotions"></div>
-                </div>
-            </div>
+            <!--    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn " alt="search">-->
+            <!--    <input type="text" placeholder="Search" id="site_search" class="site_search search_field hidden_phone" />-->
+            <!--    <div class="search_results_container">-->
+            <!--        <div class="site_search_results" id="search_results_stores"></div>-->
+            <!--        <div class="site_search_results" id="search_results_events"></div>-->
+            <!--        <div class="site_search_results" id="search_results_promotions"></div>-->
+            <!--    </div>-->
+            <!--</div>-->
         </div>
         
         <div class="menu_container hidden_phone">
