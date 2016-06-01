@@ -131,9 +131,9 @@ function renderEvents(container, template, collection){
             val.event_image_url_abs="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
         }
         
-        var show_date = new Date (val.show_on_web_date);
-        start = new Date (val.start_date);
-        end = new Date (val.end_date);
+        var show_date = new Date (val.show_on_web_date + site_json.time_zone );
+        start = new Date (val.start_date + site_json.time_zone);
+        end = new Date (val.end_date + site_json.time_zone);
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -168,7 +168,7 @@ function renderStoreList(container, template, collection, starter, breaker){
     $.each( collection , function( key, val ) {
         
         if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
-            val.alt_store_front_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+            val.alt_store_front_url = site_json.default_image;
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url);    
         }
@@ -241,7 +241,7 @@ function renderPromoDetails(container, template, collection){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "";
+            val.store_image = site_json.default_image;
             val.store_show = "display:none";
             val.phone_show = "display:none";
         }
@@ -255,9 +255,9 @@ function renderPromoDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        start = new Date (val.start_date + "T05:00:00Z");
-        end = new Date (val.end_date + "T05:00:00Z");
+        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
+        start = new Date (val.start_date + site_json.time_zone);
+        end = new Date (val.end_date + site_json.time_zone);
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -302,7 +302,7 @@ function renderEventDetails(container, template, collection){
         }
         else{
             val.store_name = mall_name;
-            val.store_image = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+            val.store_image = site_json.default_image;
             val.store_show = "display:none";
             val.phone_show = "display:none";
         }
@@ -316,9 +316,9 @@ function renderEventDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + "T05:00:00Z");
-        start = new Date (val.start_date + "T05:00:00Z");
-        end = new Date (val.end_date + "T05:00:00Z");
+        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
+        start = new Date (val.start_date + site_json.time_zone);
+        end = new Date (val.end_date + site_json.time_zone);
     
         if (start.toDateString() == end.toDateString()) {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
@@ -351,7 +351,7 @@ function renderJobs(container, template, collection){
             val.description_short = val.description;
         }
         
-        var show_date = new Date (val.start_date + "T05:00:00Z");
+        var show_date = new Date (val.start_date + site_json.time_zone);
         val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
         
         var rendered = Mustache.render(template_html,val);
