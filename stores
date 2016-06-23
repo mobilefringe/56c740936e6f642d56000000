@@ -22,7 +22,7 @@
         </select>
         <select id="mobile_alpha_list" class="form-control custom_form_control">
             <option disabled="disabled" selected>Index</option>
-            <option value="7">all</option>
+            <option value="7">top</option>
             <option value="7">#</option>
             <option value="a">a</option>
             <option value="b">b</option>
