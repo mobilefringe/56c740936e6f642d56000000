@@ -360,7 +360,7 @@ function renderJobs(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-function renderStoreDetails(container, template, collection, slug){
+function renderStoreDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
