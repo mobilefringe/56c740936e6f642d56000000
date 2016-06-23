@@ -245,6 +245,7 @@ function renderPromoDetails(container, template, collection){
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
+            val.shoe_box= "display:none"
         }
         val.image_url = val.promo_image_url_abs
         
