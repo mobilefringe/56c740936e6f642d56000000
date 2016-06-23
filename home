@@ -26,7 +26,7 @@
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item wow animated flipInX animated">
-                <a href="#">
+                <a href="{{url}}">
                     <figure style="background-image:url('{{image_url}}')">
                         <figcaption>
                             <div class="view_button">View</div>
