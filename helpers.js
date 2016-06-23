@@ -14,10 +14,11 @@ function init(e){
     })
     
     $('#mobile_cat_list').change(function(){
-        $('#mobile_alpha_list').hide()
+        $('#mobile_alpha_list').hide();
         var v = $(this).val();
         if(v == "all"){
-            $('#mobile_alpha_list').show()
+            $('#mobile_alpha_list').show();
+            $('#mobile_alpha_list').val($("#mobile_alpha_list option:first").val())
             $('.show_all_stores').click();
        }
        else{
