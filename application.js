@@ -244,6 +244,7 @@ function renderPromoDetails(container, template, collection){
             val.store_image = site_json.default_image;
             val.store_show = "display:none";
             val.phone_show = "display:none";
+            val.show = "display:none";
         }
         val.image_url = val.promo_image_url_abs
         
