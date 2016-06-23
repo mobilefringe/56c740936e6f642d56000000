@@ -242,6 +242,7 @@ function renderPromoDetails(container, template, collection){
         else{
             val.store_name = site_json.mall_name;
             val.store_image = site_json.default_image;
+            val.image_show = "display:none";
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
