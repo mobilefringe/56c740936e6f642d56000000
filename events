@@ -1,6 +1,6 @@
 <div class="content_container main_container">
     <div class="promo_main_header">
-        SPECIALS
+        EVENTS
         <select id="mobile_cat_list" class="show_phone  form-control">
             <script id="category_template2" type="x-tmpl-mustache/text">
                 <option value="{{id}}">{{name}}</option>
