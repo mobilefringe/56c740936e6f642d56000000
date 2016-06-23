@@ -35,7 +35,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll (){
-            var events = getEventsList().sortBy(function(o){ return o.start_date });
+            var events = getEventsList().sortBy(function(o){ return o.start_date }).reverse();
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
