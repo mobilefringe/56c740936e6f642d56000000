@@ -58,23 +58,23 @@
             <hr class="strikethrough" />
             <div class="social_icons_menu show_phone text-center">
                 <p>Follow us on</p>
-                <a href="https://www.facebook.com/pages/Virginia-Gateway/283283508519" target="_blank">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911898000/icon_facebook2.png" class="" alt="FB">
+                <a class="social_fb" href="https://www.facebook.com/pages/Virginia-Gateway/283283508519" target="_blank">
+                    
                 </a>
-                <a href="https://twitter.com/VAGateway" target="_blank">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911906000/icon_twitter2.png" class="" alt="Twitter">
+                <a class="social_twitter" href="https://twitter.com/VAGateway" target="_blank">
+                    
                 </a>
-                <a href="http://instagram.com/VAGateway" target="_blank">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911913000/icon_insta2.png" class="" alt="Instagram">
+                <a class="social_insta" href="http://instagram.com/VAGateway" target="_blank">
+                    
                 </a>
-                <a href="http://www.youtube.com/channel/UC175yccg8-RkPlUQU4d-YjA" target="_blank">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911921000/icon_yt2.png" class="" alt="YouTube">
+                <a class="social_yt" href="http://www.youtube.com/channel/UC175yccg8-RkPlUQU4d-YjA" target="_blank">
+                    
                 </a>
-                <a href="https://plus.google.com/b/101788305961537968923/+Vagateway/posts" target="_blank">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911930000/icon_gplus2.png" class="" alt="Google Plus">
+                <a class="social_gp" href="https://plus.google.com/b/101788305961537968923/+Vagateway/posts" target="_blank">
+                    
                 </a>
-                <a href="#" target="_blank">
-                    <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455911937000/icon_newsletter2.png" class="" alt="">
+                <a class="social_newsletter" href="/newsletter" target="_blank">
+                    
                 </a>
             </div>
         </div>
