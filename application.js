@@ -308,6 +308,7 @@ function renderEventDetails(container, template, collection){
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
+            val.show_box= "display:none"
         }
         val.image_url = val.event_image_url_abs
         
