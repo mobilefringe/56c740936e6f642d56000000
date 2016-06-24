@@ -246,12 +246,13 @@ function renderPromoDetails(container, template, collection){
             val.store_show = "display:none";
             val.phone_show = "display:none";
             val.show = "display:none";
-            val.show_box= "display:none"
+            val.show_box = "display:none";
         }
         val.image_url = val.promo_image_url_abs
         
         if(val.image_url.indexOf('missing.png') > 0){
             val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.promo_image_show = "display:none";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
