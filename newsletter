@@ -14,11 +14,11 @@
             <button type="submit">Subscribe</button>
         </div>
     </div>
-
-
-</p>
-
-</form>
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+    </div>
+    </form>
 </div>
 
 <script>
