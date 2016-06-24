@@ -17,7 +17,7 @@
     <br />
     <div class="row">
         <div class="col-md-4">
-            <button type="submit">Subscribe</button>
+            <button type="submit" class="animated_btn">Subscribe</button>
         </div>
     </div>
     </form>
