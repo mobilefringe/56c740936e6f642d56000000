@@ -418,7 +418,41 @@ function renderStoreDetails(container, template, collection){
     $(container).html(item_rendered.join(''));
 }
 
-
+function renderJobDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if(val.jobable_type == "Store"){
+            val.store_name = getStoreDetailsByID(val.jobable_id).name;
+            val.store_detail_btn = getStoreDetailsByID(val.jobable_id).slug;
+        }
+        else{
+            val.store_name = site_json.name;
+        }
+        if(val.description.length > 200){
+            val.description_short = val.description.substring(0, 200) + "..."
+        }
+        else{
+            val.description_short = val.description
+        }
+        
+        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
+        start = new Date (val.start_date + site_json.time_zone);
+        end = new Date (val.end_date + site_json.time_zone);
+    
+        if (start.toDateString() == end.toDateString()) {
+            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
+        } else {
+            val.dates = "Starts " + (get_month(start.getMonth()))+" "+(start.getDate())+" - Ends "+get_month(end.getMonth())+" "+end.getDate();    
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
 
 
 
