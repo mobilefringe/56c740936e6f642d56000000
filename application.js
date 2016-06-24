@@ -425,12 +425,36 @@ function renderJobDetails(container, template, collection){
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
-        if(val.jobable_type == "Store"){
-            val.store_name = getStoreDetailsByID(val.jobable_id).name;
-            val.store_detail_btn = getStoreDetailsByID(val.jobable_id).slug;
+        if (val.jobable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.jobable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.store_image = store_details.store_front_url_abs;
+            val.store_slug = store_details.slug
+            if (store_details.website != null && store_details.website.length > 0){
+                val.show = "display:inline";
+                val.website = store_details.website
+            }
+            else{
+                val.show = "display:none";
+            }
+            if (store_details.phone != null && store_details.phone.length > 0){
+                val.phone_show = "display:inline";
+                val.phone = store_details.phone
+            }
+            else{
+                val.phone_show = "display:none";
+                val.show = "display:none";
+            }
         }
         else{
-            val.store_name = site_json.name;
+            val.store_name = site_json.mall_name;
+            val.store_image = site_json.default_image;
+            val.store_show = "display:none";
+            val.phone_show = "display:none";
+            val.show = "display:none";
+            val.show_box= "display:none"
+            val.image_show = "display:none";
         }
         if(val.description.length > 200){
             val.description_short = val.description.substring(0, 200) + "..."
