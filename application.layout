@@ -38,7 +38,7 @@
     <script src="http://mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('http://core.mallmaverick.com/api/v2/core/all.json');
+        setEndPoint('http://vagateway.mallmaverick.com/api/v2/vagateway/all.json');
     </script>
 </head>
 
