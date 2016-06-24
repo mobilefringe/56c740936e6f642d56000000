@@ -18,6 +18,9 @@
     <div class="row">
         <div class="col-md-4">
             <button type="submit" class="animated_btn main_btn">Subscribe</button>
+            <p class="hidden_now" id="success_subscribe">
+                Thank you for subscribing!
+            </p>
         </div>
     </div>
     </form>
