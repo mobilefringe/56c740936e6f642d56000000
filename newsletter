@@ -21,7 +21,6 @@
                 <input id="newsletter_agree" type="checkbox" />
                 I agree to receive newsletters from Virginia ateway
             </label>
-            <br />
             <button type="submit" class="animated_btn main_btn">Subscribe</button>
             <p class="hidden_now" id="success_subscribe">
                 Thank you for subscribing!
