@@ -463,15 +463,10 @@ function renderJobDetails(container, template, collection){
             val.description_short = val.description
         }
         
-        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
-        start = new Date (val.start_date + site_json.time_zone);
-        end = new Date (val.end_date + site_json.time_zone);
-    
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates = "Starts " + (get_month(start.getMonth()))+" "+(start.getDate())+" - Ends "+get_month(end.getMonth())+" "+end.getDate();    
-        }
+        var show_date = new Date (val.start_date + site_json.time_zone);
+        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        
+        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
