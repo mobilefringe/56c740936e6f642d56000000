@@ -37,7 +37,7 @@
         $('#newsletter_form').submit(function(e){
             e.preventDefault();
             if ($("#newsletter_agree").prop("checked") != true){
-                alert("Please agree to receive newsletters from " + site_json.name + "." );
+                alert("Please agree to receive newsletters from " + site_json.mall_name + "." );
                 $("#newsletter_agree").focus();
                 return false;
             }
