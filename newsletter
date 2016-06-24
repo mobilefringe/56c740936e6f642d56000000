@@ -3,14 +3,13 @@
     <form action="http://petersoncompanies.createsend.com/t/d/s/ftutr/" method="post" id="subForm">
     <div class="row">
         <div class="col-md-4">
-            
+            <label for="fieldName">Name</label>
+            <input id="fieldName" name="cm-name" type="text" class="form-control">
         </div>
     </div>
 <p>
 
-<label for="fieldName">Name</label><br>
 
-<input id="fieldName" name="cm-name" type="text">
 
 </p>
 
