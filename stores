@@ -166,6 +166,9 @@
     			image: {
     				width: 850,
     				height: 850,
+    			},
+    			map: {
+    				position: 'center'
     			}
     		});
             
