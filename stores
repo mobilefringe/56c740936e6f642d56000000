@@ -164,8 +164,8 @@
             
             $('#map').craftmap({
     			image: {
-    				width: 800,
-    				height: 800,
+    				width: 850,
+    				height: 850,
     			},
     			map: {
     				position: 'center'
