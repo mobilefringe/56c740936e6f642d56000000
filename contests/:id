@@ -80,6 +80,7 @@
                 return false;
             }
             else{
+                $('#submit_btn').prop( "disabled", true );
                 submit_contest($(this).serialize());
                 if ($("#add_to_newsletter").prop("checked")){
                     var form_data = {};
