@@ -99,7 +99,7 @@
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
             show_content();
-            // renderPopup();
+            renderPopup();
             $('.flexslider').flexslider({
                 animation: "slide",
             });
