@@ -17,6 +17,19 @@
 <script>
     $(document).ready(function(e){
         init(e);
+        loadMallDataCached(renderAll); 
         show_content()
     })
+    function renderAll(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        var contestDetails = getContestBySlug(slug);
+        if(contestDetails != undefined){
+            renderContest('#form_div','#contest_template', contestDetails, 'contestDetails');
+            renderContest('#contest_image_container','#contest_image_template', contestDetails, 'contestDetails');
+        }
+        else{
+            $('#contest_ended').show()
+        }
+    }
 </script>
