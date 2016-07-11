@@ -72,8 +72,16 @@
         }
         show_content();
         $('#contest_form').submit(function(e){
-            submit_contest($(this).serialize());
             e.preventDefault();
+            if ($("#agree_terms").prop("checked") != true){
+                alert("Please agree to receive newsletters from " + site_json.mall_name + "." );
+                $("#newsletter_agree").focus();
+                return false;
+            }
+            else{
+                submit_contest($(this).serialize());
+            }
+            
         })
     }
 </script>
