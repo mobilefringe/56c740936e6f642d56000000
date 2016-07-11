@@ -44,7 +44,7 @@ function init(e){
     
     $('.popup-close').click(function(){
         $('.hidden-popup-bg').hide()
-        $('body').removeClass('no_scroll')
+        $('body').removeClass('no_scroll');
     })
     
 
