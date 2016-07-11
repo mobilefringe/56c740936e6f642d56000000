@@ -1,7 +1,7 @@
 <div class="hidden-popup-bg">
     <div class="hidden-popup-form">
         <div class="popup-header">
-           <p class="popup-close pull-right">X</p>
+           <i class="popup-close fa fa-close"></i>
         </div>
         <div class="popup-body">
             <a id="pp_url" href="">
