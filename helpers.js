@@ -307,11 +307,11 @@ function submit_contest(data) {
         data: data,
         success: function(data) {
             $("#success_subscribe").fadeIn();
-            $('#form_div').hide();
+            $('#contest_form').trigger('reset');
         },
         error: function(data){
             $("#success_subscribe").fadeIn();
-            $('#form_div').hide();
+            $('#contest_form').trigger('reset');
         }
     });
 }
