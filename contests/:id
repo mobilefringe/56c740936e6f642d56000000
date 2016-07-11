@@ -72,7 +72,7 @@
         }
         show_content();
         $('#contest_form').submit(function(e){
-            submit_contest();
+            submit_contest($(this).serialize());
             e.preventDefault();
         })
     }
