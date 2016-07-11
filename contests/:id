@@ -7,7 +7,7 @@
                 <div id="contest_container">
                     <script id="contest_template" type="x-tmpl-mustache/text">
                         <img alt="contest image" class="details_image" src="{{alt_photo_url}}" />
-                        <p class="promo_list_name">{{{description}}}</p>
+                        <p class="promo_list_name">{{{name}}}</p>
                     </script>
                 </div>
                 
