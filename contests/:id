@@ -31,6 +31,6 @@
         else{
             $('#contest_ended').show()
         }
-        show_content()
+        show_content();
     }
 </script>
