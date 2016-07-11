@@ -83,7 +83,8 @@
                 if ($("#add_to_newsletter").prop("checked")){
                     var form_data = {};
                     form_data['cm-name'] = $("#first_name").val() + " " + $("#last_name").val();
-                    form_data['cm-ftutr-ftutr'] = $('#email').val()
+                    form_data['cm-ftutr-ftutr'] = $('#email').val();
+                    $.getJSON(site_json.newsletter_form_url, form_data);
                 }
             }
             
