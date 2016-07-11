@@ -42,6 +42,10 @@ function init(e){
         $('#site_search').val('')
     })
     
+    $('.popup-close').click(function(){
+        
+    })
+    
 
 }
 
