@@ -299,7 +299,7 @@ function site_search(){
 
 function renderPopup(){
     var pp = getPopups()[0];
-                
+    console.log(pp)
     if (pp != undefined){
         $('#pp_img').attr('src', 'http://cdn.mallmaverick.com' +pp.photo_url)
         $('#pp_url').attr('href',  pp.photo_link)
