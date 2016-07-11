@@ -29,7 +29,7 @@
             renderContest('#contest_image_container','#contest_image_template', contestDetails, 'contestDetails');
         }
         else{
-            $('#contest_ended').show()
+            $('#contest_ended').show();
         }
         show_content();
     }
