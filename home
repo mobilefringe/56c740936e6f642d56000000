@@ -103,7 +103,7 @@
             $('.flexslider').flexslider({
                 animation: "slide",
             });
-            renderPopup();
+            renderSitePopup();
         }
         loadMallData(renderAll); 
     })
