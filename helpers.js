@@ -297,7 +297,7 @@ function site_search(){
 }
 
 function submit_contest(data){
-    
+    console.log(data)
 }
 
 
