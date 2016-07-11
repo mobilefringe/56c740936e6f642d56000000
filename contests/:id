@@ -75,7 +75,7 @@
             e.preventDefault();
             if ($("#agree_terms").prop("checked") != true){
                 alert("Please agree with Terms and Conditions to continue.");
-                $("#newsletter_agree").focus();
+                $("#agree_terms").focus();
                 return false;
             }
             else{
