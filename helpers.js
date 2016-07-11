@@ -296,6 +296,10 @@ function site_search(){
     });
 }
 
+function submit_contest(){
+    
+}
+
 
 
 function renderSitePopup(){
