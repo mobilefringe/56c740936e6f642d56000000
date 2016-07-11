@@ -43,7 +43,7 @@ function init(e){
     })
     
     $('.popup-close').click(function(){
-        
+        $('.hidden-popup-bg').hide()
     })
     
 
