@@ -8,6 +8,7 @@
                     <script id="contest_template" type="x-tmpl-mustache/text">
                         <img alt="contest image" class="details_image" src="{{alt_photo_url}}" />
                         <p class="promo_list_name">{{name}}</p>
+                        <div class="details_desc">{{{description}}}</div>
                     </script>
                 </div>
                 
