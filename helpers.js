@@ -304,9 +304,9 @@ function renderSitePopup(){
         if (pp.photo_link.length > 0){
             $('.popup-body').html('<a id="pp_url" href="' + pp.photo_link +'"><img id="pp_img" src="' + pp.photo_url + '" class="" alt=""></a>')
         }
-        $('#pp_img').attr('src', 'http://cdn.mallmaverick.com' +pp.photo_url)
-        
-        $('#pp_url').attr('href',  pp.photo_link)
+        else{
+            $('.popup-body').html('<img id="pp_img" src="' + pp.photo_url + '" class="" alt="">')
+        }
     
         if($.cookie("popup_viewed") != "true"){
             $.cookie("popup_viewed", "true", { expires: 1 });
