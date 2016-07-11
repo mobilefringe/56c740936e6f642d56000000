@@ -71,5 +71,9 @@
             $('#contest_ended').show();
         }
         show_content();
+        $('#contest_form').submit(function(e){
+            submit_contest();
+            e.preventDefault();
+        })
     }
 </script>
