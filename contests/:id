@@ -37,6 +37,9 @@
                                 <label>
                                     <input type="checkbox" id="agree_terms" /> I agree with <a href="#" target="_blank">Terms and Conditions</a>
                                 </label>
+                                <label>
+                                    <input type="checkbox" id="add_to_newsletter" /> I agree with <a href="#" target="_blank">Terms and Conditions</a>
+                                </label>
                             </div>
                         </div>
                     </form>
