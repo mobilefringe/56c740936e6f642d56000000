@@ -302,10 +302,10 @@ function renderSitePopup(){
     var pp = getPopups()[0];
     if (pp != undefined){
         if (pp.photo_link.length > 0){
-            $('.popup-body').html('<a id="pp_url" href="' + pp.photo_link +'"><img id="pp_img" src="' + pp.photo_url + '" class="" alt=""></a>')
+            $('.popup-body').html('<a id="pp_url" href="' + pp.photo_link +'"><img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" class="" alt=""></a>')
         }
         else{
-            $('.popup-body').html('<img id="pp_img" src="' + pp.photo_url + '" class="" alt="">')
+            $('.popup-body').html('<img id="pp_img" src="http://cdn.mallmaverick.com' + pp.photo_url + '" class="" alt="">')
         }
     
         if($.cookie("popup_viewed") != "true"){
