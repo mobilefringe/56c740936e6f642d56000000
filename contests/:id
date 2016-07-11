@@ -79,7 +79,7 @@
                 return false;
             }
             else{
-                submit_contest($(this).serialize());
+                submit_contest($(this).serialize(), $("#add_to_newsletter").prop("checked") );
             }
             
         })
