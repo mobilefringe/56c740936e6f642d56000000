@@ -483,12 +483,7 @@ function renderContest(container, template, collection){
     if (type == "contestDetails"){
         collection.alt_photo_url = getImageURL(collection.photo_url);
         collection.property_id = getPropertyID();
-        item_list.push(collection);
-        collection = [];
-        collection = item_list;
-    }
-    $.each( collection , function( key, val ) {
-        var rendered = Mustache.render(template_html,val);
+        var rendered = Mustache.render(template_html,collection);
         item_rendered.push(rendered);
 
     });
