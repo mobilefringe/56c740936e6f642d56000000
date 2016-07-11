@@ -310,6 +310,8 @@ function submit_contest(data) {
             $('#contest_form').trigger('reset');
         }
     });
+    $('#submit_btn').prop( "disabled", false );
+    
 }
 
 
