@@ -308,10 +308,6 @@ function submit_contest(data) {
         success: function(data) {
             $("#success_subscribe").fadeIn();
             $('#contest_form').trigger('reset');
-        },
-        error: function(data){
-            $("#success_subscribe").fadeIn();
-            $('#contest_form').trigger('reset');
         }
     });
 }
