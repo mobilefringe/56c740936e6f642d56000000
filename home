@@ -4,9 +4,7 @@
            <i class="popup-close fa fa-close"></i>
         </div>
         <div class="popup-body">
-            <a id="pp_url" href="">
-                <img id="pp_img" src="" class="" alt="">
-            </a>
+            
         </div>
    </div>
 
