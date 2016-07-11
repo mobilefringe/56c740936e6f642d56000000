@@ -25,9 +25,16 @@
             </div>
         </div>
         
-        <div class="col-md-4">
-            
-        </div>
+        <div class="col-md-4 hidden_phone">
+                <img src="{{store_image}}" style="{{image_show}}" alt="Store Logo" class="details_image" />
+                <div class="side_stores" style="{{show_box}}">
+                    <a class="hover_underline" style="{{store_show}}" href="/stores/{{store_slug}}">{{store_name}}</a>
+                    <br />
+                    <a class="hover_underline" href="tel:{{phone}}" style="{{phone_show}}">{{phone}}</a>
+                    <br style="{{phone_show}}" />
+                    <a class="hover_underline" href="http://{{website}}" target="_blank" style="{{show}}">Visit Website</a>
+                </div>
+            </div>
     </div>
 </div>
 
