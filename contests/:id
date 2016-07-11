@@ -30,8 +30,7 @@
         var slug = pathArray[pathArray.length-1];
         var contestDetails = getContestBySlug(slug);
         if(contestDetails != undefined){
-            renderContest('#form_div','#contest_template', contestDetails, 'contestDetails');
-            renderContest('#contest_image_container','#contest_image_template', contestDetails, 'contestDetails');
+            renderContest('#contest_container','#contest_template', contestDetails);
         }
         else{
             $('#contest_ended').show();
