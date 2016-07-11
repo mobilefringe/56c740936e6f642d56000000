@@ -1,17 +1,3 @@
-<div class="hidden-popup-bg">
-    <div class="hidden-popup-form">
-        <div class="popup-header">
-           <p class="popup-close pull-right">X</p>
-        </div>
-        <div class="popup-body">
-            <a id="pp_url" href="">
-                <img id="pp_img" src="" class="" alt="">
-            </a>
-        </div>
-   </div>
-
-</div>
-
 <div class="show_phone mobile_banner">
     <img src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456154112000/mobile_bg.png" class="" alt="banner">
     <div class="menu_links">
@@ -99,7 +85,6 @@
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
             show_content();
-            renderPopup();
             $('.flexslider').flexslider({
                 animation: "slide",
             });
