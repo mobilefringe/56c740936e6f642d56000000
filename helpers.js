@@ -302,23 +302,23 @@ function renderSitePopup(){
     if (pp != undefined){
         $('#pp_img').attr('src', 'http://cdn.mallmaverick.com' +pp.photo_url)
         $('#pp_url').attr('href',  pp.photo_link)
-    }
     
-    if($.cookie("popup_viewed") != "true"){
-        $.cookie("popup_viewed", "true", { expires: 1 });
-       $(".hidden-popup-bg").show();
-    }
-    
-    
-    $(".hidden-popup-bg").click(function(event){
-        if( !$( event.target).is('.hidden-popup-form') ) {
-            close_popup();
-        } else {
-            event.stopPropagation();
+        if($.cookie("popup_viewed") != "true"){
+            $.cookie("popup_viewed", "true", { expires: 1 });
+           $(".hidden-popup-bg").show();
         }
-    });
-    
-    $(".hidden-popup-bg .hidden-popup-form").click(function(event){
-        event.stopPropagation();
-    }); 
+        
+        
+        $(".hidden-popup-bg").click(function(event){
+            if( !$( event.target).is('.hidden-popup-form') ) {
+                close_popup();
+            } else {
+                event.stopPropagation();
+            }
+        });
+        
+        $(".hidden-popup-bg .hidden-popup-form").click(function(event){
+            event.stopPropagation();
+        }); 
+    }
 }
