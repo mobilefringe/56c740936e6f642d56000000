@@ -322,5 +322,4 @@ function renderPopup(){
     $(".hidden-popup-bg .hidden-popup-form").click(function(event){
         event.stopPropagation();
     }); 
-        
 }
