@@ -32,7 +32,13 @@
                                 <input class="form-control" id="phone_number" name="contest[phone]" type="text"  />
                             </div>
                         </div>
-                    
+                        <div class="row">
+                            <div class="col-md-12">
+                                <label>
+                                    <input type="checkbox" id="agree_terms" /> I agree with <a href="#" target="_blank">Terms and Conditions</a>
+                                </label>
+                            </div>
+                        </div>
                     </form>
                 </script>
             </div>
