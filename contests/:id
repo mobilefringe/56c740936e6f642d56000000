@@ -40,7 +40,7 @@
                                 <label>
                                     <input type="checkbox" id="add_to_newsletter" /> Yes, subscribe me to your email list to receive promotions and events!
                                 </label>
-                                <input type="submit" value="submit" class="newsletter_btn animated_btn" />
+                                <button type="submit" value="submit" class="newsletter_btn animated_btn" />
                             </div>
                         </div>
                     </form>
