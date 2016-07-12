@@ -92,8 +92,13 @@ function renderPromotions(container, template, collection){
         } else {
             val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
         }
-        var rendered = Mustache.render(template_html,val);
-        item_rendered.push(rendered);
+        if(starter == '#' && breaker == '#' && isInt(upper_current_initial)){
+            item_rendered.push(rendered);
+            $('.numbers_exist').css('display', 'block');
+        }
+        if (upper_current_initial.charCodeAt(0) < breaker.charCodeAt(0) && upper_current_initial.charCodeAt(0) >= starter.charCodeAt(0)){
+            item_rendered.push(rendered);
+        }
     });
     $(container).html(item_rendered.join(''));
 }
