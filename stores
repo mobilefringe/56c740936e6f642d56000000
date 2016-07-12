@@ -138,7 +138,8 @@
         function renderAll (){
             var categories = getStoreCategories();
             var stores = getStoresList(); 
-            renderStoreList('#store_list_container','#store_list_template', stores, "A", "Z");
+            renderStoreList('#store_list_container','#store_list_template', stores, "A", "L");
+            renderStoreList('#store_list_container2','#store_list_template', stores, "L", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderGeneral('#category_container', '#category_template', categories);
             
