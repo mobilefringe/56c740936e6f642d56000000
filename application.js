@@ -201,6 +201,7 @@ function renderStoreList(container, template, collection, starter, breaker){
         var rendered = Mustache.render(template_html,val);
         var upper_current_initial = current_initial.toUpperCase();
         if(starter == '#' && breaker == '#' && isInt(upper_current_initial)){
+            console.log("r")
             item_rendered.push(rendered);
             $('.numbers_exist').css('display', 'block');
         }
