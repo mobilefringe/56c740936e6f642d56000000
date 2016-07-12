@@ -143,7 +143,7 @@
             renderStoreList('#store_list_container','#store_list_template', stores, "A", "L");
             renderStoreList('#store_list_container2','#store_list_template', stores, "L", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
-            renderStoreList('#numbered_store_list_container','#store_list_template', stores, "stores","#", "#" );
+            renderStoreList('#numbered_store_list_container','#store_list_template', stores,"#", "#" );
             renderGeneral('#category_container', '#category_template', categories);
             
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
