@@ -90,12 +90,6 @@
             
             <h5 class="category_header" style="display:none" id="cat_name_header">All</h5>
             <div class="store_list" id="store_list_container">
-                <script id="store_list_template" type="x-tmpl-mustache/text">
-                    <div class="store_list_content cats_row" data-cat="{{cat_list}}">
-                        <p class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</p>
-                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
-                    </div>
-                </script>
             </div>
         </div>
         <div class="col-md-4 hidden_phone">
@@ -125,6 +119,12 @@
         </div>
     </div>
 </div>
+<script id="store_list_template" type="x-tmpl-mustache/text">
+    <div class="store_list_content cats_row" data-cat="{{cat_list}}">
+        <p class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</p>
+        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+    </div>
+</script>
 
 <script>
     $(document).ready(function(e){
