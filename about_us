@@ -46,7 +46,7 @@
         
         prefix = get_prefix();
         $('#top_banner').addClass(slug)
-        var pages_json = prefix+"/pages/vagateway-contact-us.json"
+        var pages_json = prefix+"/pages/vagateway-about-us.json"
         $.getJSON(pages_json).done(function(data) {
             $('#mm_page_content').html(data.body);
         }).fail(function(jqXHR) {
