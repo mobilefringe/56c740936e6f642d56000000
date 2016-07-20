@@ -48,7 +48,6 @@
         $('#top_banner').addClass(slug)
         var pages_json = prefix+"/pages/vagateway-contact-us.json"
         $.getJSON(pages_json).done(function(data) {
-            $('#mm_page_title').html(data.title);
             $('#mm_page_content').html(data.body);
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {
