@@ -2,7 +2,7 @@
     <h4 class="promo_main_header">About Us</h3>
     <div class="about_container">
         <div class="row">
-            <div class="col-md-8 contact_contents">
+            <div class="col-md-8 ">
                 <img class="about_banner" src="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456347907000/about_us.png" alt="">
                 <div id="mm_page_content" class="promo_list_desc"></div>
             </div>
