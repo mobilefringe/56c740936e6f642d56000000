@@ -69,11 +69,11 @@ function renderPromotions(container, template, collection){
         }
         else{
             val.store_name = site_json.mall_name;
-            val.image_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.image_url = site_json.default_image;
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.image_url  = site_json.default_image;
         }
         
         if(val.description.length > 200){
@@ -113,11 +113,11 @@ function renderEvents(container, template, collection){
         }
         else{
             val.store_name = site_json.mall_name;
-            val.image_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.image_url = site_json.default_image;
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.image_url  = site_json.default_image;
         }
         
         if(val.description.length > 200){
@@ -128,7 +128,7 @@ function renderEvents(container, template, collection){
         }
         
         if(val.event_image_url_abs.indexOf('missing.png') > -1){
-            val.event_image_url_abs="http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.event_image_url_abs= site_json.default_image;
         }
         
         var show_date = new Date (val.show_on_web_date + site_json.time_zone );
@@ -257,7 +257,7 @@ function renderPromoDetails(container, template, collection){
         val.image_url = val.promo_image_url_abs
         
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.image_url  = site_json.default_image;
             val.promo_image_show = "display:none";
         }
         
@@ -322,7 +322,7 @@ function renderEventDetails(container, template, collection){
         val.image_url = val.event_image_url_abs
         
         if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1456246178000/promo_image.png";
+            val.image_url  = site_json.default_image;
             val.event_image_show = "display:none";
         }
         
@@ -382,7 +382,7 @@ function renderStoreDetails(container, template, collection){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "http://assets.codecloudapp.com/sites/56c740936e6f642d56000000/image/png/1455899596000/main_logo.png";
+            val.alt_store_front_url = site_json.default_image;
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
