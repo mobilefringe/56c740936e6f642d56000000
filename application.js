@@ -133,15 +133,17 @@ function renderEvents(container, template, collection){
             val.event_image_url_abs= site_json.default_image;
         }
         
-        var show_date = new Date (val.show_on_web_date + site_json.time_zone );
-        start = new Date (val.start_date + site_json.time_zone);
-        end = new Date (val.end_date + site_json.time_zone);
+        var show_date = moment(val.show_on_web_date);
+        start = moment(val.start_date);
+        end = moment(val.end_date);
     
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM DD")
         }
+        else{
+            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
+        }
+        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
@@ -267,14 +269,15 @@ function renderPromoDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
-        start = new Date (val.start_date + site_json.time_zone);
-        end = new Date (val.end_date + site_json.time_zone);
+        var show_date = moment(val.show_on_web_date);
+        start = moment(val.start_date);
+        end = moment(val.end_date);
     
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM DD")
+        }
+        else{
+            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
         }
         
         var rendered = Mustache.render(template_html,val);
@@ -332,14 +335,15 @@ function renderEventDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         
-        var show_date = new Date (val.show_on_web_date + site_json.time_zone);
-        start = new Date (val.start_date + site_json.time_zone);
-        end = new Date (val.end_date + site_json.time_zone);
+        var show_date = moment(val.show_on_web_date);
+        start = moment(val.start_date);
+        end = moment(val.end_date);
     
-        if (start.toDateString() == end.toDateString()) {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate());    
-        } else {
-            val.dates = (get_month(start.getMonth()))+" "+(start.getDate())+" - "+get_month(end.getMonth())+" "+end.getDate();    
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM DD")
+        }
+        else{
+            val.dates = start.format("MMM DD") + " - " + end.format("MMM DD")
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
@@ -367,8 +371,11 @@ function renderJobs(container, template, collection){
             val.description_short = val.description;
         }
         
-        var show_date = new Date (val.start_date + site_json.time_zone);
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date);
+        var end = moment(val.end_date);
+    
+        val.published_on = show_date.format("MMM")+ " " + show_date.getDate();
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
