@@ -375,7 +375,7 @@ function renderJobs(container, template, collection){
         var start = moment(val.start_date);
         var end = moment(val.end_date);
     
-        val.published_on = show_date.format("MMM")+ " " + show_date.getDate();
+        val.published_on = show_date.format("MMM")+ " " + show_date.format("DD")
         
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
