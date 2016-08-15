@@ -52,7 +52,7 @@
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             show_cat_stores()
             var published_promos = [];
-            $.each( promos , function( key, val ){
+            $.each( promotions , function( key, val ){
                 var today = moment();
                 webDate = moment(val.show_on_web_date)
                 if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
