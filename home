@@ -34,7 +34,7 @@
     </ul>
 </div>
 </div>
-<div class="content_container main_container hidden_phone">
+<div class="content_container main_container hidden_phone margin_40">
     <div class="feature_row" id="feature_container">
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item wow animated flipInX animated">
