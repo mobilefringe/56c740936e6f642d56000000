@@ -49,22 +49,22 @@
         </script>
     </div>
     <div class="clearfix"></div>
-    <div class="promotions">
-        <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
-        <p class="exclusive_deals">don’t miss our exclusive deals</p>
-        <div class="home_promotions feature_row" id="promos_container">
-            <script id="promos_template" type="x-tmpl-mustache/text">
-                <div class="promotion_item wow animated flipInX animated text-center">
-                    <a href="/promotions/{{slug}}">
-                        <img class="featured_promo_img" src="{{image_url}}" />
-                        <h3 class="promotion_header home_promos">{{name}}</h3>
-                        <p class="promotion_dates">{{dates}}</p>
-                    </a>
-                </div>
-            </script>
-        </div>
-        <div class="clearfix"></div>
-    </div>
+    <!--<div class="promotions">-->
+    <!--    <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>-->
+    <!--    <p class="exclusive_deals">don’t miss our exclusive deals</p>-->
+    <!--    <div class="home_promotions feature_row" id="promos_container">-->
+    <!--        <script id="promos_template" type="x-tmpl-mustache/text">-->
+    <!--            <div class="promotion_item wow animated flipInX animated text-center">-->
+    <!--                <a href="/promotions/{{slug}}">-->
+    <!--                    <img class="featured_promo_img" src="{{image_url}}" />-->
+    <!--                    <h3 class="promotion_header home_promos">{{name}}</h3>-->
+    <!--                    <p class="promotion_dates">{{dates}}</p>-->
+    <!--                </a>-->
+    <!--            </div>-->
+    <!--        </script>-->
+    <!--    </div>-->
+    <!--    <div class="clearfix"></div>-->
+    <!--</div>-->
 </div>
 <div class="content_container position_relative">
     <h2 class="heading text-center show_phone">VISIT US</h2>
