@@ -480,8 +480,11 @@ function renderJobDetails(container, template, collection){
             val.description_short = val.description
         }
         
-        var show_date = new Date (val.start_date + site_json.time_zone);
-        val.published_on = get_month(show_date.getMonth()) + " " + show_date.getDate();
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date);
+        var end = moment(val.end_date);
+    
+        val.published_on = show_date.format("MMM")+ " " + show_date.format("DD")
         
         
         var rendered = Mustache.render(template_html,val);
