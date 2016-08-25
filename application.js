@@ -64,7 +64,7 @@ function renderPromotions(container, template, collection){
             var store_details = getStoreDetailsByID(val.promotionable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
-            val.image_url = store_details.store_front_url;
+            val.image_url = store_details.store_front_url_abs;
             val.cat_list = store_details.categories.join(',');
         }
         else{
