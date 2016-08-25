@@ -4,7 +4,7 @@
         
     </div>
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div id="promos_container">
                 <script id="promos_template" type="x-tmpl-mustache/text">
                     <div class="row promo_item cats_row" data-cat="{{cat_list}}">
@@ -23,9 +23,6 @@
                 </script>
             </div>
         </div>
-        
-        <div class="col-md-4 hidden_phone">
-        </div> 
     </div>
 </div>
 
