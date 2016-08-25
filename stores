@@ -114,18 +114,18 @@
                     <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
                 </script>
             </div>
-            <div id="new_stores">
-                <p class="category_header">New Stores</p>
-                <div id="new_store_container">
-                    <script id="new_store_template" type="x-tmpl-mustache/text">
-                        <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
-                    </script>
-                </div>
-            </div>
             <div id="coming_soon_stores">
                 <p class="category_header">Opening Soon</p>
                 <div id="coming_soon_container">
                     <script id="coming_soon_template" type="x-tmpl-mustache/text">
+                        <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
+                    </script>
+                </div>
+            </div>
+            <div id="new_stores">
+                <p class="category_header">New Stores</p>
+                <div id="new_store_container">
+                    <script id="new_store_template" type="x-tmpl-mustache/text">
                         <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
                     </script>
                 </div>
