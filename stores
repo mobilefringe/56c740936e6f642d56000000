@@ -1,4 +1,4 @@
-<script src="http://assets.codecloudapp.com/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
 <div class="content_container main_container position_relative">
     <a href="#" class="locate_store hidden_phone">Locate store <i class="fa fa-search"></i></a>
     <div class="stores_table">
@@ -9,7 +9,7 @@
         </ul>
     </div>
     <div id="map" class="hidden_phone">
-        <img alt="map" id="map_image" src="http://cdn.mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
+        <img alt="map" id="map_image" src="//mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
     </div>
     <h2 class="stores_main_heading">Directory</h2>
     <p class="store_main_desc">explore • enjoy • shop</p>
