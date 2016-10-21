@@ -480,7 +480,7 @@ function renderJobDetails(container, template, collection){
             val.description_short = val.description
         }
         
-        var show_date = moment(val.show_on_web_date);
+        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         val.published_on = show_date.format("MMM")+ " " + show_date.format("DD")
         
         
