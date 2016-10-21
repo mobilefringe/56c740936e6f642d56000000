@@ -12,7 +12,7 @@
                 </p>
                 <div class="row">
                     <div class="col-md-6">
-                        <label class="text-left for="fieldName">Name</label>
+                        <label class="text-left" for="fieldName">Name</label>
                         <input id="fieldName" name="cm-name" type="text" class="form-control">
                     </div>
                 
