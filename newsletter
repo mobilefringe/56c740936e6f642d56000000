@@ -4,13 +4,13 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <label for="fieldName">Name</label>
                         <input id="fieldName" name="cm-name" type="text" class="form-control">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <label for="fieldEmail">Email</label>
                         <input id="fieldEmail" name="cm-ftutr-ftutr" type="email" required class="form-control">
                     </div>
