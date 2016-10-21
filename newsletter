@@ -12,12 +12,12 @@
                 </p>
                 <div class="row">
                     <div class="col-md-6">
-                        <label for="fieldName">Name</label>
+                        <label class="text-left for="fieldName">Name</label>
                         <input id="fieldName" name="cm-name" type="text" class="form-control">
                     </div>
                 
                     <div class="col-md-6">
-                        <label for="fieldEmail">Email</label>
+                        <label class="text-left for="fieldEmail">Email</label>
                         <input id="fieldEmail" name="cm-ftutr-ftutr" type="email" required class="form-control">
                     </div>
                 </div>
