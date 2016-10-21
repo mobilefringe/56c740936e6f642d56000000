@@ -8,8 +8,10 @@
             </script>
         </ul>
     </div>
-    <div id="map" class="hidden_phone">
-        <img alt="map" id="map_image" src="//mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
+    <div class="map_container">
+        <div id="map" class="hidden_phone">
+            <img alt="map" id="map_image" src="//mallmaverick.com/system/properties/maps/000/000/007/original/VA_Gateway_Map_2000x2000-FINAL.jpg?1367431992" />
+        </div>
     </div>
     <h2 class="stores_main_heading">Directory</h2>
     <p class="store_main_desc">explore • enjoy • shop</p>
