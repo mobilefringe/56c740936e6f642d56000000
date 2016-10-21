@@ -83,7 +83,7 @@ function renderPromotions(container, template, collection){
             val.description_short = val.description
         }
         
-        var show_date = moment(val.show_on_web_date);
+        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
     
