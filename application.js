@@ -133,9 +133,9 @@ function renderEvents(container, template, collection){
             val.event_image_url_abs= site_json.default_image;
         }
         
-        var show_date = moment(val.show_on_web_date);
-        start = moment(val.start_date);
-        end = moment(val.end_date);
+        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
     
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM DD")
@@ -269,9 +269,9 @@ function renderPromoDetails(container, template, collection){
             val.promo_image_show="display:none";
         }
         
-        var show_date = moment(val.show_on_web_date);
-        start = moment(val.start_date);
-        end = moment(val.end_date);
+        var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
     
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM DD")
