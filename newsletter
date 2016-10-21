@@ -1,30 +1,34 @@
 <div class="content_container main_container">
     <h4 class="promo_main_header">Newsletter</h3>
     <form action="http://petersoncompanies.createsend.com/t/d/s/ftutr/" method="post" id="newsletter_form">
-    <div class="row">
-        <div class="col-md-4">
-            <label for="fieldName">Name</label>
-            <input id="fieldName" name="cm-name" type="text" class="form-control">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="fieldName">Name</label>
+                        <input id="fieldName" name="cm-name" type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <label for="fieldEmail">Email</label>
+                        <input id="fieldEmail" name="cm-ftutr-ftutr" type="email" required class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label class="newsletter_label">
+                            <input id="newsletter_agree" type="checkbox" />
+                            I agree to receive newsletters from Virginia Gateway
+                        </label>
+                        <button type="submit" class="animated_btn main_btn">Subscribe</button>
+                        <p class="hidden_now" id="success_subscribe">
+                            Thank you for subscribing!
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4">
-            <label for="fieldEmail">Email</label>
-            <input id="fieldEmail" name="cm-ftutr-ftutr" type="email" required class="form-control">
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-6">
-            <label class="newsletter_label">
-                <input id="newsletter_agree" type="checkbox" />
-                I agree to receive newsletters from Virginia Gateway
-            </label>
-            <button type="submit" class="animated_btn main_btn">Subscribe</button>
-            <p class="hidden_now" id="success_subscribe">
-                Thank you for subscribing!
-            </p>
-        </div>
-    </div>
     </form>
 </div>
 
