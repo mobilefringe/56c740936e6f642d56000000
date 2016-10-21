@@ -4,12 +4,12 @@
         <div class="row">
             <div class="col-md-12">
                 <img src="http://placehold.it/940x500" class="padding_20" />
+            </div>
+            <div class="col-md-8 text-center">
                 <p>
                     Lorem ipsum dolor sit amet, eam et dico primis instructior. Alia sanctus intellegat per te, ius impetus blandit sapientem ut. Has exerci laudem ea. Ex feugiat deserunt consequuntur nam. Pri malorum debitis nominati ad. In democritum conclusionemque vim.
 
                 </p>
-            </div>
-            <div class="col-md-8 text-center">
                 <div class="row">
                     <div class="col-md-6">
                         <label for="fieldName">Name</label>
