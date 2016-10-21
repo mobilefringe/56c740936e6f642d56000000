@@ -1,7 +1,7 @@
 
 <div class="content_container main_container">
     <h4 class="promo_main_header">Contest</h3>
-    <div class="row">
+    <div class="row padding_20">
         <div class="col-md-8">
             <div id="contest_container">
                 <script id="contest_template" type="x-tmpl-mustache/text">
