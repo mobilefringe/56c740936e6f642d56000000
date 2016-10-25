@@ -41,7 +41,7 @@
                                     <input type="checkbox" id="add_to_newsletter" /> Yes, subscribe me to your email list to receive promotions and events!
                                 </label>
                                 <button type="submit" class="newsletter_btn animated_btn" id="submit_btn">Submit</button>
-                                <p id="success_subscribe" class="hidden_now">Thank you entering in the contest</p>
+                                <p id="success_subscribe" class="hidden_now">Thank you for entering in the contest</p>
                             </div>
                         </div>
                     </form>
